@@ -6,7 +6,7 @@
 
 \include "../definitions.ly"
 
-\paper { #(define (page-post-process layout pages) (ly:create-toc-file layout pages)) }
+% \paper { #(define (page-post-process layout pages) (ly:create-toc-file layout pages)) }
 
 #(set-global-staff-size 15.87)
 
@@ -17,22 +17,14 @@
 			title = "K Y R I E"
 		}
 		\paper { indent = 3\cm }
-		% \tocSection "1" "Kyrie"
+		\tocSection "1" "Kyrie"
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "in B"
-						\new Staff {
-							\set Staff.instrumentName = "Clarino I"
-							% \transpose c b,
-							\KyrieClarinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Clarino II"
-							% \transpose c b,
-							\KyrieClarinoII
-						}
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in B" }
+						% \transpose c b,
+						\partcombine \KyrieClarinoI \KyrieClarinoII
 					>>
 				>>
 				\new Staff {
@@ -94,7 +86,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 2 = 110 }
 		}
 	}
 }
