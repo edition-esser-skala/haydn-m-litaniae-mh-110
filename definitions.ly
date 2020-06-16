@@ -593,6 +593,7 @@ tocSection = #(define-music-function
 )
 
 tempoKyrie = \tempoMarkup "Allegro"
+tempoJesuFili = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"

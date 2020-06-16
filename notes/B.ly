@@ -234,6 +234,110 @@ KyrieBassoLyrics = \lyricmode {
 	bis. %142 finis
 }
 
+JesuFiliBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \autoBeamOff \tempoJesuFili
+		R2.*93 %93
+		\mvTr c2.\p^\tutti
+		d2 d4 %95
+		g,2 g4
+		c c c
+		f2 f4
+		f f r
+		es\f es4. c8 %100
+		f8. f16 es4 r
+		c8 c es4. c8
+		f4 es r
+		R2.*9 %112
+		\key b \major R2.*47 %159
+		r4 \mvTr b'2~\pE^\solo %160
+		b4 a a~
+		a8. a16 g4 g~
+		g f a~
+		a8 b16([ a)] g8([ f)] e([ d)]
+		cis8.([ h16)] a4 r %165
+		R2.
+		r4 a' a8 g
+		f8.[( e16)] d4 f
+		g2 c8 b
+		a8.([ g16)] f4 r %170
+		d2 b'4
+		e,8.([ d16)] c4 c'8 b
+		a f c2
+		f,4 r r
+		R2.*4 %178
+		r4 f' f
+		a2 a4 %180
+		b b, r
+		g'2 c4
+		f,8. f16 f8 f b16([ a)] g([ f)]
+		f2( es4)
+		d b as' %185
+		g8.[( f16] es8[ g c)] b
+		a!8.([ g16)] f4 r
+		r b, es8 e
+		f4 f r8 f
+		b4. d,8 es e %190
+		f4 f r
+		f2.
+		f
+		b4. d16[ c] b8[ f]
+		g es f2 %195
+		b,4 r r
+		R2.*14 %210
+		R2.\fermataMarkup \bar "||" %211 finis
+	}
+}
+
+JesuFiliBassoLyrics = \lyricmode {
+	Je -- %94
+	su hu -- %95
+	mil -- li --
+	me, mi -- se --
+	re -- re
+	no -- bis,
+	Je -- su pau -- %100
+	per -- ri -- me,
+	mi -- se -- re -- re
+	no -- bis.
+
+	Je -- %160
+	su spe --
+	cu -- lum vi --
+	tae, mi --
+	se -- re -- re
+	no -- bis. %165
+
+	Je -- su ex --
+	em -- plar, ex --
+	em -- plar vir --
+	tu -- tum, %170
+	mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis.
+
+	Je -- su %179
+	de -- cus %180
+	mo -- rum,
+	Je -- su
+	spe -- cu -- lum per -- fe -- cti --
+	o --
+	nis, mi -- se -- %185
+	re -- re
+	no -- bis,
+	Je -- su ze --
+	la -- tor, ze --
+	la -- tor a -- ni -- %190
+	ma -- rum,
+	mi --
+	se --
+	re -- _ _
+	_ re %195
+	no -- bis. %196 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

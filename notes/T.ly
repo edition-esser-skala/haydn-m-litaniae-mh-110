@@ -288,6 +288,119 @@ KyrieTenoreLyrics = \lyricmode {
 	bis. %142 finis
 }
 
+JesuFiliTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 3/4 \autoBeamOff \tempoJesuFili
+		R2.*93 %93
+		\mvTr es2.\p^\tutti
+		a,2 a4 %95
+		d2 h4
+		g g c
+		c2 c4
+		d d r
+		c\f c4. c8 %100
+		as8. as16 c4 r
+		es8 es c4. c8
+		as4 c r
+		R2.*9 %112
+		\key b \major r4 \mvTr es2~\pE^\solo
+		es4 d d~
+		d c c8 c16 c %115
+		c8. c16 b4 b~
+		b8 a16([ b)] c4 b
+		b a r
+		R2.
+		r4 d4. c8 %120
+		b8.([ a16)] g8 d' d g16 f!
+		es8. d16 c4 c~
+		c f, f'
+		d8. c16 b4 r
+		r es c %125
+		a8.([ g16)] f4 f'8 es
+		\appoggiatura es16 d8 c16([ b)] c2\trill
+		b4 r r
+		R2.*4 %132
+		r4 b b
+		f'2 es8 d
+		c8.([ b16)] a4 f8 f %135
+		es'2.
+		d4 b b
+		as2.
+		g4 g es'8([ d)]
+		c2( b4) %140
+		a! a a
+		d d d
+		d4.( c16[ b] a8) g
+		fis8.([ e16)] d4 r
+		r d'2~ %145
+		d4 d, r8 d'
+		d2 d4
+		d d, r
+		r d' g
+		es2. %150
+		d4 b es8([ d)]
+		c4. c8 c b16([ a)]
+		b8 a16([ g)] a2
+		g4 r r
+		R2.*56 %210
+		R2.\fermataMarkup \bar "||" %211 finis
+	}
+}
+
+JesuFiliTenoreLyrics = \lyricmode {
+	Je -- %94
+	su hu -- %95
+	mil -- li --
+	me, mi -- se --
+	re -- re
+	no -- bis,
+	Je -- su pau -- %100
+	per -- ri -- me,
+	mi -- se -- re -- re
+	no -- bis.
+
+	Je -- %113
+	su, Je --
+	su sa -- pi -- en -- %115
+	tis -- si -- me, mi --
+	se -- re -- re
+	no -- bis.
+
+	Je -- su, %120
+	Je -- su o -- be -- di -- en --
+	tis -- si -- me, Je --
+	su ca --
+	stis -- si -- me,
+	mi -- se -- %125
+	re -- re, mi -- se --
+	re -- re no --
+	bis.
+
+	Je -- su, %133
+	Je -- su a --
+	ma -- tor ca -- sti -- %135
+	ta --
+	tis, mi -- se --
+	re --
+	re, mi -- se --
+	re -- %140
+	re, Je -- su,
+	Je -- su a --
+	ma -- tor
+	pa -- cis,
+	Je -- %145
+	su a --
+	ma -- tor
+	no -- ster,
+	mi -- se --
+	re -- %150
+	re, mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %154 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

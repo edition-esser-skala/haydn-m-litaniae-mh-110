@@ -276,6 +276,86 @@ KyrieAltoLyrics = \lyricmode {
 	bis. %142 finis
 }
 
+JesuFiliAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoJesuFili
+		R2.*72 %72
+		r4 \mvTr g'\pE^\solo g
+		c4.( as8) g fis
+		g8.([ fis16)] g4 r %75
+		g4. g8 b g16 e
+		f8.([ e16)] f4 r8 f
+		fis4. fis8 c'4
+		\appoggiatura c16 h8[( a16 g]) g4 r
+		R2.*3 %82
+		r4 g4. f!8
+		\appoggiatura f e4. g16([ as)] b8 as16([ g)]
+		as8. g16 f4 r %85
+		as4. d,8 f as
+		as16([ g)] fis([ g)] g4 r
+		g4. c,8 es g
+		g16([ f)] e([ f)] f4 r
+		f4. h,8 d f %90
+		\appoggiatura f16 es8([ d16 es)] es4 c'~
+		c8 es, es es es4\trill
+		d r r
+		R2.
+		\mvTr c4\p^\tutti c4. a'8 %95
+		c,8. h16 h4 r
+		b b4. g'8
+		b,8. as16 as4 as8 as
+		as'4 as r
+		g\f g4. g8 %100
+		as8. as16 g4 r
+		g8 g g4. g8
+		as4 g r
+		r \mvTr g\pE^\solo c
+		as2 g16[ f es d] %105
+		\appoggiatura f es8 d16([ c)] d2\trill
+		c4 r r
+		R2.*5 %112
+		\key b \major R2.*98 %210
+		R2.\fermataMarkup \bar "||" %211 finis
+	}
+}
+
+JesuFiliAltoLyrics = \lyricmode {
+	Je -- su %73
+	cla -- ri -- or
+	so -- le, %75
+	Je -- su pul -- chri -- or
+	lu -- na, splen --
+	di -- di -- or
+	stel -- lis,
+
+	Je -- su, %83
+	Je -- su ad -- mi --
+	ra -- bi -- lis, %85
+	Je -- su de -- le --
+	cta -- bi -- lis,
+	Je -- su ho -- no --
+	ra -- bi -- lis,
+	mi -- se -- re -- re %90
+	no -- bis, mi --
+	se -- re -- re no --
+	bis.
+
+	Je -- su hu -- %95
+	mil -- li -- me,
+	Je -- su hu --
+	mil -- li -- me, mi -- se --
+	re -- re,
+	\xE Je -- su pau -- %100
+	per -- ri -- me,
+	mi -- se -- re -- re
+	no -- bis,
+	\x mi -- se --
+	re -- _ %105
+	_ re no --
+	bis. %107 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
