@@ -735,6 +735,58 @@ JesuFiliBassFigures = \figuremode {
 	r2. %211 finis
 }
 
+JesuRefugiumOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 4/4 \tempoJesuRefugium
+		\mvTr g'8\fE-\tutti f es d c a fis d'
+		g, g' f! d g e cis a'
+		d, d' d, c b a b g
+		c a d d, g g' f! d
+		g e cis a' d, d, d' c %5
+		b c d b es c a f'
+		b,\p d f d b d f b,
+		es es e e f f f, f
+		b r b-\senzaOrg r c r c r
+		d r g r f r f, r %10
+		\mvTr b\f-\colOrg d f d h d f h,
+		c es g es cis e g cis,
+		d c b a g' f es d
+		c a fis d' g g, b g
+		c r c r c r c r %15
+		c4 r c r
+		c r c r
+		fis8 fis fis fis fis fis fis fis
+		f f f f f f f f
+		e! e es es d d d d %20
+		g,2 d'\fermata \bar "||" %21 finis
+	}
+}
+
+JesuRefugiumBassFigures = \figuremode {
+	r8 <\t> r q <6 5 _->4 <7->8 <7 _+>
+	r4 <6>4. <6\\ [5]>8 <7> <7 _+>
+	<9> <8> <_+> <\t> <6>2
+	<6 5 _->4 <9- _+>8 <7 \t> r4 <[6]>
+	<6 5>8 <6\\> <7> <7 _+> r4. <6 _->8 %5
+	r8 \bo <[7 _-]> \bc <[6 \l]>4 <9>8 <_-> <7 [5-]> <7->
+	<8>2. \bassFigureExtendersOn q8 \bassFigureExtendersOff <[7-]>
+	r <7> <[\t]>4 <6 4> <[5] 3>
+	r1
+	r %10
+	<5 3>4. \bassFigureExtendersOn q8 <7->4. q8
+	<_->4. q8 \bo <7- [_!]>4. \bc q8 \bassFigureExtendersOff
+	<_+>4 <5+>8 <6\\> r <\t> r q
+	<6 5 _-> <6\\ [5-]> <7-> <7 _+> r4 <6>
+	<6- [_-]>4 <\t \t> q q %15
+	<6! 4\+ _->2 <\t \t \t>
+	r1
+	<7->1
+	<4! _->
+	<[6]>4 <6\\> <[8] _+>8 <7! \t> <6 4> <[5] _+> %20
+	<9>4 <8> <_+>2 %21 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

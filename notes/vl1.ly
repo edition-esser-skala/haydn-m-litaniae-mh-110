@@ -362,6 +362,34 @@ JesuFiliViolinoI = {
 	}
 }
 
+JesuRefugiumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \tempoJesuRefugium
+		g'4~\fE g16 a b g es'4~ es16 c c a
+		b( d,) g( b) a( cis) d( f,!) e!( d') cis( d) e( g,) e( cis')
+		d, a' f a d, d' fis, a g es' d es d fis g b,
+		a g' a g a, fis' a c, b d b g a cis d a
+		g b cis, d e! g e' g, f a d a f d' es c %5
+		d b es, b' f f' d b g' g, es' c es, es' es c
+		d\p b f' b, d, es f d d' b f' b, d, es f d
+		g b d b d b g b f d b d es c a c
+		b8 d'~ d16 es f( b,) a8 es'~ es16 c( b a)
+		b8 b'~ b16 g f e f8 d,~ d16 f es c %10
+		b(\f d) f( d) b d f d d' d, f d h d d' f,
+		es c g c es g c g g'( e) cis( e) cis( b) b( g)
+		d' a fis d d' d, c' d, b' b, d b g' a b g
+		es' es, c' a es' a, c a b d, g d d' g, b g
+		as8 c~ c16 d es c as8 as~ as16 b c as %15
+		es'( d) d( c) c b b a a4~ a16 b c d
+		es d d c c b b a a4~ a16 b c d
+		es c a c es, a c a es' c a c es, a c a
+		h d f as as f d h h d f as as f d h
+		c g c g' b g b cis, d d, c' d, b' d, a' d, %20
+		a'8 b16 fis g4 fis2\fermata \bar "||" %21 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

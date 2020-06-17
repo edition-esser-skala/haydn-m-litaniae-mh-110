@@ -74,3 +74,23 @@ KyrieClarinoI = {
 		c1\fermata \bar "||" %142 finis
 	}
 }
+
+JesuRefugiumClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoJesuRefugium
+		R1*5 %5
+		g''4\fE e r8 d d[ f16 d]
+		e4 r r2
+		r r4 g,\p
+		g r r2
+		R1 %10
+		c4\f r r2
+		R1
+		e4 r8 e e4 r
+		r r8 e e4 r
+		R1*5 %19
+		r2 e4 e8 e %20
+		e4 e8 e16 e e2\fermata \bar "||" %21 finis
+	}
+}

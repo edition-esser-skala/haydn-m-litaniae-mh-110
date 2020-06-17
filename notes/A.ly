@@ -356,6 +356,55 @@ JesuFiliAltoLyrics = \lyricmode {
 	bis. %107 finis
 }
 
+JesuRefugiumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \autoBeamOff \tempoJesuRefugium
+		R1
+		\mvTr d4~\fE^\tuttiE d16[ e!] f! d b'4~ b16[ g] g e
+		f8 d fis16([ g)] a([ fis)] g8 d g4~
+		g fis g8 b([ a)] f
+		e!8.([ f16] g8[ e]) a f4 es8 %5
+		d([ es)] f f4 es8 c4
+		b8 b~\p b16[ c] d b f'4~ f16[ g] as f
+		g8 b, b b b8. b16 a4
+		b r r2
+		R1*2 %11
+		c4~\f c16[ d] es([ c)] b'!4~ b16[ g] g([ e)]
+		fis16. e32 d8 fis a d,4 g
+		g8 fis c'16([ a)] a([ fis)] g16. a32 b8 g g
+		es4 es r c'~ %15
+		c16[ b] b([ a!)] a([ g)] g([ fis)] fis4~ fis16[ g] a([ b)]
+		c16[( b]) b([ a)] a([ g)] g([ fis)] fis4~ fis16[ g a b]
+		c4 a r a8 a
+		as4 as r as8 as
+		g2( fis4) d %20
+		d2 d\fermata \bar "||" %22 finis
+	}
+}
+
+JesuRefugiumAltoLyrics = \lyricmode {
+	Je -- su re -- fu -- gi -- um %2
+	no -- strum, mi -- se -- re -- re no --
+	_ bis, mi -- se --
+	re -- re, mi -- se -- %5
+	re -- re, mi -- se -- re --
+	re, Je -- su re -- fu -- gi -- um
+	no -- strum, mi -- se -- re -- re no --
+	bis.
+
+	Je -- su pa -- ter %12
+	pau -- pe -- rum, mi -- se -- re -- re
+	no -- bis, pa -- ter pau -- pe -- rum, mi -- se --
+	re -- re, \xE Je -- %15
+	su, Je -- su con -- so --
+	la -- tor af -- fli -- cto --
+	_ rum, mi -- se --
+	re -- re, \x mi -- se --
+	re -- re %20
+	no -- bis. %21 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

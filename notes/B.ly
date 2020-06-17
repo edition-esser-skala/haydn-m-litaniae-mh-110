@@ -338,6 +338,53 @@ JesuFiliBassoLyrics = \lyricmode {
 	no -- bis. %196 finis
 }
 
+JesuRefugiumBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 4/4 \autoBeamOff \tempoJesuRefugium
+		R1*3
+		r2 \mvTr d4~\fE^\tutti d16[ e!] f d
+		b'4~ b16[ g] g e f8 d d c! %5
+		b([ c)] d4 es8([ c)] a([ f')]
+		b,2\p b
+		es4( e f2)
+		b,4 r r2
+		R1 %10
+		b4~\f b16[ c] d([ b)] as'4~ as16[ f] f([ d)]
+		es16. d32 c8 c c g'4. cis,8
+		d[ c b a] g4 es'8[ d]
+		c[ a fis] d' g g, b g
+		c4 c r2 %15
+		fis8([ g)] a!([ b)] c([ b)] a([ g)]
+		fis([ g)] a([ b)] c([ b)] a([ g)]
+		fis4 fis r fis8 fis
+		f4 f r f8 f
+		e!4( es) d d8 d %20
+		g, g g4 d'2\fermata \bar "||" %21 finis
+	}
+}
+
+JesuRefugiumBassoLyrics = \lyricmode {
+	Je -- su re -- %4
+	fu -- gi -- um no -- strum, mi -- se -- %5
+	re -- re, mi -- se --
+	re -- re
+	no --
+	bis.
+	%10
+	Je -- su pa -- ter
+	pau -- pe -- rum, mi -- se -- re -- _
+	_ _ _
+	_ re no -- bis, mi -- se --
+	re -- re, %15
+	\xE Je -- su __ con -- so --
+	la -- tor __ af -- fli --
+	cto -- rum, mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se -- %20
+	re -- re no -- bis. %21 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

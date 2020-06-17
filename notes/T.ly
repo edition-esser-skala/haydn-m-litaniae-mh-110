@@ -401,6 +401,51 @@ JesuFiliTenoreLyrics = \lyricmode {
 	bis. %154 finis
 }
 
+JesuRefugiumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 4/4 \autoBeamOff \tempoJesuRefugium
+		R1*2
+		r2 \mvTr g4~\fE^\tutti g16[ a] b g
+		es'4~ es16[ c] c a b8 g d'4~
+		d8 cis16([ d)] e8([ cis)] d a~ a16[ b!] c([ a)] %5
+		f'[ es d c] b4. c16[ d] es8 a,
+		b f d'2\p d4
+		b8( g4) g8 f2
+		f4 r r2
+		R1*3 %12
+		d4~\fE d16[ e!] fis([ d)] b'4~ b16[ c] d([ b)]
+		a8. a16 a4 r d8 d
+		c4 c r2 %15
+		a!8([ b)] c([ d)] es([ d)] c([ b)]
+		a([ b)] c([ d)] es([ d)] c([ b)]
+		a4 c r c8 es
+		d4 d r d8 d
+		c4( g) a! d8 c %20
+		b b b4 a2\fermata \bar "||" %21 finis
+	}
+}
+
+JesuRefugiumTenoreLyrics = \lyricmode {
+	Je -- su re -- %3
+	fu -- gi -- um no -- strum, mi --
+	se -- re -- re, mi -- se -- %5
+	re -- _ _ _ re
+	no -- bis, mi -- se --
+	re -- re no --
+	bis.
+
+	Je -- su pa -- ter %13
+	pau -- pe -- rum, mi -- se --
+	re -- re, %15
+	Je -- su __ con -- so --
+	la -- tor __ af -- fli --
+	cto -- rum, mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se -- %20
+	re -- re no -- bis. %21 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

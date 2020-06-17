@@ -71,3 +71,22 @@ KyrieTimpani = {
 		c1\fermata \bar "||" %142 finis
 	}
 }
+
+JesuRefugiumTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoJesuRefugium
+		R1*5 %5
+		c4\fE r r8 g g g
+		c4 r r2
+		r r4 g\p
+		c r r2
+		R1 %10
+		c4\f r r2
+		R1
+		r2 c4 r
+		r2 c4 r
+		R1*6
+		R1\fermataMarkup \bar "||"
+	}
+}

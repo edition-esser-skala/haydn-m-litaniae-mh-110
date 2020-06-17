@@ -364,3 +364,31 @@ JesuFiliViolinoII = {
 		b r r\fermata \bar "||" %211 finis
 	}
 }
+
+JesuRefugiumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \tempoJesuRefugium
+		b16(\fE d) a( d) g,( b) g'( b,) c( g') fis( g) a( c) a( fis)
+		d4~ d16 e! f! d b'4~ b16 g g e
+		f8 d fis16 g a fis g8 d g4~
+		g fis g8 b a f
+		e! e16 f g8 e a f4 es8 %5
+		d es f f~ f es c4
+		b8 b~\p b16 c d b f'4~ f16 g as f
+		g8 b, b b b b a a
+		b r d r es r es r
+		f r b r d b,~ b16 d c a %10
+		b4 r r2
+		c4~\f c16 d es c b'!4~ b16 g g e
+		fis16. e32 d8 fis a d,4 g
+		g8 fis c'16( a) a( fis) g8 d g g
+		es8 r es r es r es r %15
+		c'16( b) b( a!) a( g) g( fis) fis4~ fis16 g a b
+		c b b a a g g fis fis4~ fis16 g a b
+		a c a c es, a c a es' c a c es, a c a
+		h d f as as f d h h d f as as f d h
+		c g c g' b g b cis, d d, c' d, b' d, c d
+		b2 a\fermata \bar "||"
+	}
+}

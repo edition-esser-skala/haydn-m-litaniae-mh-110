@@ -89,63 +89,134 @@
 	% 		\midi { \tempo 2 = 110 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "2"
+	% 		title = "J E S U   F I L I   D E I   V I V I"
+	% 	}
+	% 	\tocSection "2" "Jesu Fili Dei vivi"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\JesuFiliViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\JesuFiliViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \JesuFiliSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \JesuFiliSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \JesuFiliAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \JesuFiliAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \JesuFiliTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \JesuFiliTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \JesuFiliBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \JesuFiliBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\JesuFiliOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \JesuFiliBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "2"
-			title = "J E S U   F I L I   D E I   V I V I"
+			number = "3"
+			title = "J E S U   R E F U G I U M   N O S T R U M"
 		}
-		\tocSection "2" "Jesu Fili Dei vivi"
+		\tocSection "3" "Jesu refugium nostrum"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+						% \transpose c b,
+						\partcombine \JesuRefugiumClarinoI \JesuRefugiumClarinoII
+					>>
+				>>
+				\new Staff {
+					\set Staff.instrumentName = "timp"
+					% \transpose c b,
+					\JesuRefugiumTimpani
+				}
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\JesuFiliViolinoI
+							\JesuRefugiumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\JesuFiliViolinoII
+							\JesuRefugiumViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \JesuFiliSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \JesuRefugiumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \JesuFiliSopranoLyrics
+					\new Lyrics \lyricsto Soprano \JesuRefugiumSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \JesuFiliAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \JesuRefugiumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \JesuFiliAltoLyrics
+					\new Lyrics \lyricsto Alto \JesuRefugiumAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \JesuFiliTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \JesuRefugiumTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \JesuFiliTenoreLyrics
+					\new Lyrics \lyricsto Tenore \JesuRefugiumTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \JesuFiliBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \JesuRefugiumBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \JesuFiliBassoLyrics
+					\new Lyrics \lyricsto Basso \JesuRefugiumBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\JesuFiliOrgano
+						\JesuRefugiumOrgano
 					}
 				>>
-				\new FiguredBass { \JesuFiliBassFigures }
+				\new FiguredBass { \JesuRefugiumBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 45 }
 		}
 	}
 }

@@ -406,6 +406,54 @@ JesuFiliSopranoLyrics = \lyricmode {
 	no -- bis. %103 finis
 }
 
+JesuRefugiumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \autoBeamOff \tempoJesuRefugium
+		\mvTr g'4~\fE^\tutti g16[ a] b g es'4~ es16[ c] c a
+		b8 g d'4. cis16([ d)] e4~
+		e8 a, d4~ d16[ es] d([ es)] d8 b
+		a2 g4 r
+		R1 %5
+		b4~ b16[ c] d b g'4~ g16[ es] es c
+		d8 b b2\p b4
+		b8 d, d2( c4)
+		b r r2
+		R1*3 %12
+		r2 g'4~\fE g16[ a] b([ g)]
+		es'4~ es16[ c] c([ a)] b16. a32 g8 g b
+		as4 as r es'~ %15
+		es16[ d] d[([ c)] c([ b)] b([ a)] a4~ a16[ b] c([ d)]
+		es([ d)] d([ c)] c([ b)] b([ a)] a4~ a16[ b c d]
+		es4 es r es8 c
+		h4 h r h8 h
+		c4 cis d8 c b a %20
+		a([ b16 fis] g4) fis2\fermata \bar "||" %21 finis
+	}
+}
+
+JesuRefugiumSopranoLyrics = \lyricmode {
+	Je -- su re -- fu -- gi -- um
+	no -- strum, mi -- se -- re --
+	re, mi -- se -- re -- re
+	no -- bis,
+	%5
+	Je -- su re -- fu -- gi -- um
+	no -- strum, mi -- se --
+	re -- re no --
+	bis.
+
+	Je -- su %13
+	pa -- ter pau -- pe -- rum, mi -- se --
+	re -- re, Je -- %15
+	su, Je -- su con -- so --
+	la -- tor af -- fli -- cto --
+	_ rum, mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se -- re -- re %20
+	no -- bis. %21 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
