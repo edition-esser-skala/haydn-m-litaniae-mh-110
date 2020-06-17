@@ -148,75 +148,134 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		title = "J E S U   R E F U G I U M   N O S T R U M"
+	% 	}
+	% 	\tocSection "3" "Jesu refugium nostrum"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+	% 					% \transpose c b,
+	% 					\partcombine \JesuRefugiumClarinoI \JesuRefugiumClarinoII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				% \transpose c b,
+	% 				\JesuRefugiumTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\JesuRefugiumViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\JesuRefugiumViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \JesuRefugiumSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \JesuRefugiumSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \JesuRefugiumAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \JesuRefugiumAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \JesuRefugiumTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \JesuRefugiumTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \JesuRefugiumBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \JesuRefugiumBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\JesuRefugiumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \JesuRefugiumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 45 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "3"
-			title = "J E S U   R E F U G I U M   N O S T R U M"
+			number = "4"
+			title = "J E S U   T H E S A U R E   F I D E L I U M"
 		}
-		\tocSection "3" "Jesu refugium nostrum"
+		% \tocSection "4" "Jesu thesaure fidelium"
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-						% \transpose c b,
-						\partcombine \JesuRefugiumClarinoI \JesuRefugiumClarinoII
-					>>
-				>>
-				\new Staff {
-					\set Staff.instrumentName = "timp"
-					% \transpose c b,
-					\JesuRefugiumTimpani
-				}
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\JesuRefugiumViolinoI
+							\JesuThesaureViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\JesuRefugiumViolinoII
+							\JesuThesaureViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \JesuRefugiumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \JesuThesaureSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \JesuRefugiumSopranoLyrics
+					\new Lyrics \lyricsto Soprano \JesuThesaureSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \JesuRefugiumAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \JesuThesaureAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \JesuRefugiumAltoLyrics
+					\new Lyrics \lyricsto Alto \JesuThesaureAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \JesuRefugiumTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \JesuThesaureTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \JesuRefugiumTenoreLyrics
+					\new Lyrics \lyricsto Tenore \JesuThesaureTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \JesuRefugiumBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \JesuThesaureBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \JesuRefugiumBassoLyrics
+					\new Lyrics \lyricsto Basso \JesuThesaureBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\JesuRefugiumOrgano
+						\JesuThesaureOrgano
 					}
 				>>
-				\new FiguredBass { \JesuRefugiumBassFigures }
+				\new FiguredBass { \JesuThesaureBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 45 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

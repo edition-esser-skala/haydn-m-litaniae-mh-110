@@ -454,6 +454,147 @@ JesuRefugiumSopranoLyrics = \lyricmode {
 	no -- bis. %21 finis
 }
 
+JesuThesaureSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \autoBeamOff \tempoJesuThesaure
+		R1*8 %8
+		\mvTr a'4\pE^\solo d8 f \appoggiatura f16 e8([ d16 cis)] d8 a
+		a4 d8 f \appoggiatura f16 e8 d16([ cis)] d4 %10
+		r f2 e4
+		e( d8) f, f e a4~
+		a8 a a4. a8 a4~
+		a8[ h16 cis] d[ e] f([ g)] a8 a, r4
+		R1*2 %16
+		c8.([\trill b32 c)] f8 c d d r4
+		d8.([\trill c32 d)] g8 b, c c r4
+		c8.([\trill b32 c)] f8 a, b2~
+		b16[ d c b] a8 b a4( g) %20
+		f r r2
+		R1*5 %26
+		c'2 c
+		c2. f8([ a,)]
+		g a b4 a r
+		R1*2 %31
+		r2 d8.([\trill c32 d)] es8 d
+		cis4. cis8 c8.\trill b32([ c)] d8 c
+		h4 h c8([ b)] as([ g)]
+		fis8. fis16 fis4 g8 a b4 %35
+		a r r2
+		R1
+		r2 a4( b)
+		a( g) fis( b)
+		a( cis) d4. d8 %40
+		d([ g16 d] es8) d16([ c)] b4( a)\trill
+		g r r2
+		R1*19 %61
+		c8([ es)] es([ g)] g4. b,!8
+		b8. a!16 a4 r2
+		f' f
+		f4 f, r2 %65
+		b8([ d)] d([ f)] f4. as,8
+		g([ b)] b([ es)] es4 d
+		d c r2
+		c8 c des4 c r
+		c8 c des4 c r %70
+		r c4. b8 d!4~
+		d8 c es4. d8 f4~
+		f8[ es d] es d4( c)\trill
+		b r r2
+		R1*3 %77
+		r2 b8.([\trill a32 b]) c8 b
+		a a a4 b r
+		R1*3 %82
+		a2 a
+		a4. f'8 f8. e16 e4
+		r d8 d d8. cis16 cis4 %85
+		d d8 c b4 b
+		g'4. b,8 a8. a16 a4
+		d d8 b g4 g
+		e'4. g,8 g8. f16 f4
+		d'4. f,8 f e r4 %90
+		r2 cis'8 cis d4
+		cis r cis8 cis d4
+		cis cis8 cis d4( b8) g
+		f4( e)\trill d r
+		a'8 a b4 a r %95
+		a8 a b4 a r
+		d4. fis,8 g4 g
+		f'!4. gis,8 a4 cis8[ e]
+		g[ f16 e] f8 e16([ d)] e2\trill
+		d4 r r2 %100
+		R1*7 %107
+		R1\fermataMarkup \bar "||" %108 finis
+	}
+}
+
+JesuThesaureSopranoLyrics = \lyricmode {
+	Je -- su the -- sau -- re, the -- %9
+	sau -- re fi -- de -- li -- um, %10
+	mi -- se --
+	re -- re no -- bis, Je --
+	su gem -- ma pre --
+	_ ti -- o -- sa,
+
+	mi -- _ se -- re -- re, %17
+	mi -- _ se -- re -- re,
+	mi -- _ se -- re --
+	_ re no --
+	bis.
+
+	Je -- su %27
+	stel -- la, __
+	stel -- la ma -- ris,
+
+	Je -- _ su %32
+	sa -- pi -- en -- ti -- a ae --
+	ter -- na, Je -- su __
+	bo -- ni -- tas in -- fi -- ni -- %35
+	ta,
+
+	mi --
+	se -- re --
+	re, __ mi -- se -- %40
+	re -- re no --
+	bis.
+
+	Je -- su be -- ni -- %62
+	gnis -- si -- me,
+	mi -- se --
+	re -- re, %65
+	mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re, %70
+	mi -- se -- re --
+	re, mi -- se -- re --
+	re no --
+	bis.
+
+	Mi -- _ se -- %78
+	re -- re no -- bis,
+
+	Je -- su %83
+	a -- man -- tis -- si -- me,
+	a -- man -- tis -- si -- me, %85
+	Je -- su a -- ma -- tor
+	fi -- de -- lis -- si -- me,
+	Je -- su a -- ma -- tor
+	fi -- de -- lis -- si -- me,
+	mi -- se -- re -- re, %90
+	mi -- se -- re --
+	re, mi -- se -- re --
+	re, mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- re, %95
+	mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- _
+	_ _ re no --
+	bis. %100 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

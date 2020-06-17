@@ -446,6 +446,111 @@ JesuRefugiumTenoreLyrics = \lyricmode {
 	re -- re no -- bis. %21 finis
 }
 
+JesuThesaureTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \autoBeamOff \tempoJesuThesaure
+		R1*44 %44
+		r2 \mvTr d~\pE^\solo %45
+		d4 c8 a b f' \appoggiatura f es4
+		d r r2
+		r c4. c8
+		f([ es)] d([ c)] h4. h8
+		c4 es8 g, g4. f8 %50
+		es4 r r2
+		r c'8.([\trill h32 c)] d8 c
+		h4. h8 b8.([\trill as32 b)] c8 b
+		as8. as16 as4 r f'8 f
+		es4. f8 es4( d) %55
+		c r r2
+		R1*7 %63
+		b8([ d)] d([ f)] f4. b,8
+		b8. a16 a4 a b8([ c)] %65
+		b2 b
+		b4. g8 g4 g
+		f f r2
+		r f'8 f e!4
+		f r f8 f e!4 %70
+		f r r b,~
+		b8 a c4. b8 d4~
+		d8 c b b b4( a)
+		b r r2
+		R1*5 %79
+		r2 c8.([\trill h32 c)] d8 c %80
+		h h h4 c r
+		r2 d8.([\trill cis32 d)] e!8 d
+		cis cis cis4 d r
+		a2 a
+		a4. f'8 f8. e16 e4 %85
+		r d2 g,4~
+		g8 a16([ b)] c2 f,4
+		f8 g16([ a)] b4. b8 b4
+		a2 a
+		b4( h) a r %90
+		e'8 e f4 e r
+		e8 e f4 e r
+		r e8 e d4. g,8
+		a2 a4 r
+		r2 d8 d cis4 %95
+		d r d8 d cis4
+		d8 a4 a8 g4 g
+		gis4. d'8 cis2~
+		cis4 d d( cis)\trill
+		d r r2 %100
+		R1*7 %107
+		R1\fermataMarkup \bar "||" %108 finis
+	}
+}
+
+JesuThesaureTenoreLyrics = \lyricmode {
+	Je -- %45
+	su sal -- va -- tor mun --
+	di,
+	Je -- su
+	me -- di -- a -- tor
+	De -- i et ho -- mi -- %50
+	num,
+	Je -- _ su
+	bo -- ne pa -- _ stor
+	o -- vi -- um, mi -- se --
+	re -- re no -- %55
+	bis.
+
+	Je -- su cle -- men -- %64
+	tis -- si -- me, mi -- se -- %65
+	re -- re,
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re --
+	re, mi -- se -- re -- %70
+	re, mi --
+	se -- re -- re, mi --
+	se -- re -- re no --
+	bis.
+
+	Mi -- _ se -- %80
+	re -- re no -- bis,
+	mi -- _ se --
+	re -- re no -- bis,
+	Je -- su
+	a -- man -- tis -- si -- me, %85
+	Je -- su __
+	a -- ma -- tor
+	fi -- de -- lis -- si -- me,
+	mi -- se --
+	re -- re, %90
+	mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- %95
+	re, mi -- se -- re --
+	re, mi -- se -- re -- re,
+	mi -- se -- re --
+	re no --
+	bis. %100 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

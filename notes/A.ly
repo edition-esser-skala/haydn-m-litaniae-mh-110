@@ -405,6 +405,139 @@ JesuRefugiumAltoLyrics = \lyricmode {
 	no -- bis. %21 finis
 }
 
+JesuThesaureAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \autoBeamOff \tempoJesuThesaure
+		R1*10 %10
+		\mvTr a'8.([\pE^\solo\trill g32 a)] b8 f g8.([\trill f32 g)] a8[ e]
+		f8.([\trill e32 f)] a8 d, d cis r4
+		R1*2
+		c!4 f8 a g f16([ e)] f8 c %15
+		c'4. a8 g([ f16 e)] f4
+		r2 f8.([\trill e32 f)] b8 fis
+		g g r4 g8.([ fis?32 g)] c8 e,
+		f f r4 f8.([\trill e32 f)] b8 d,
+		e4 f8([ g)] f4( e) %20
+		f r r2
+		R1*8 %29
+		d2 d4 d %30
+		d2 d4 g8 b
+		a4. b16([ c)] b([ a)] g8 r4
+		g8.([\trill fis32 g)] a8 g fis4. fis8
+		f8.\trill es32([ f]) g8 f es4 es
+		R1 %35
+		r2 c'8([ b)] as([ g)]
+		fis4. fis8 g([ a] b4)
+		a r fis( g)
+		fis( cis) d( g)
+		fis( g) fis4. fis8 %40
+		g4. g8 g4( fis)\trill
+		g r r2
+		R1*20 %62
+		f8([ a!)] a([ c)] c4. es,8
+		es8. d16 d4 d f8([ g)]
+		c,4( f2) f4 %65
+		f f r2
+		es8([ g)] g([ c)] c4 b
+		b a r2
+		a8 a b4 a r
+		a8 a b4 a r %70
+		r2 f
+		f f(
+		g8[ a b)] g f2
+		d4 r r2
+		R1*3 %77
+		f8.([\trill es32 f)] g8 d es8. es16 es4
+		es8\trill d16([ es)] f8 es es d r4
+		R1*2 %81
+		a'8.([\trill g32 a)] b8 f g8. g16 g4
+		g8\trill f16([ g)] a8 g g f r4
+		r d8 d d8. cis16 cis4
+		a'2 a %85
+		r4 a d,8 d b'4~
+		b g r8 c, a'4~
+		a f r e~
+		e e e8. d16 d4
+		f4. d8 d cis r4 %90
+		r2 a'8 a gis4
+		a r a8 a gis4
+		a a8 a a4 d,
+		d( cis) d r
+		fis8 fis g4 fis r %95
+		fis8 fis g4 fis r
+		fis4. d8 d4 d
+		d4. d8 e2~
+		e8 a4 f8 b4( a)
+		a r r2 %100
+		R1*7 %107
+		R1\fermataMarkup \bar "||" %108 finis
+	}
+}
+
+JesuThesaureAltoLyrics = \lyricmode {
+	Mi -- _ se -- re -- _ %11
+	_ _ re no -- bis,
+
+	Je -- su ar -- ma -- ri -- um per -- %15
+	fe -- cti -- o -- nis,
+	mi -- _ se --
+	re -- re, mi -- _ se --
+	re -- re, mi -- _ se --
+	re -- re __ no -- %20
+	bis.
+
+	Je -- su lux %30
+	ve -- ra, mi -- se --
+	re -- re no -- bis,
+	Je -- _ su sa -- pi --
+	en -- ti -- a ae -- ter -- na,
+	%35
+	mi -- se --
+	re -- re no --
+	bis, mi --
+	se -- re --
+	re, __ mi -- se -- %40
+	re -- re no --
+	bis.
+
+	Je -- su di -- le -- %63
+	ctis -- si -- me, mi -- se --
+	re -- re %65
+	no -- bis,
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re, %70
+	mi --
+	se -- re --
+	re no --
+	bis.
+
+	Je -- su mi -- tis -- si -- me, %78
+	mi -- se -- re -- re no -- bis,
+
+	Je -- su mi -- tis -- si -- me, %82
+	mi -- se -- re -- re no -- bis,
+	a -- man -- tis -- si -- me,
+	Je -- su, %85
+	Je -- su a -- ma --
+	tor, a -- ma --
+	tor fi --
+	de -- lis -- si -- me,
+	mi -- se -- re -- re, %90
+	mi -- se -- re --
+	re, mi -- se -- re --
+	re, mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- re, %95
+	mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re --
+	_ re no --
+	bis. %100 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

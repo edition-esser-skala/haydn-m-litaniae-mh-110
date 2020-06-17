@@ -787,6 +787,232 @@ JesuRefugiumBassFigures = \figuremode {
 	<9>4 <8> <_+>2 %21 finis
 }
 
+JesuThesaureOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \tempoJesuThesaure
+		\mvTr d8\fE-\soloE e f d g a f4
+		r8 f16 e f8 d g a f4
+		r8 f16 e d8 d' e d cis cis,
+		d e f g a[ a] a, r
+		a'4(\p gis) a( b) %5
+		a( gis) a( b)
+		a a8\f g f d g, g'
+		f d g, g' f b a a,
+		d\p e f d g a f4
+		r8 f16 e f8 d g a f4 %10
+		r8 f16 e d8 d' e d cis cis,
+		d d, r d' a' a, a' g
+		f e f d cis a' a, g'
+		f e f d a4 a'8\f g
+		f\p g a f b c a4 %15
+		r8 a16 g a8 f b c a f16 g
+		a8 a a a b b b b
+		b b b b a a a a
+		a a a a g g g g
+		c, c' d b c b c c, %20
+		f\f g a f b c a4
+		r8 a16 g a8 f b c a4
+		r8 a, b h c[ c'] c, r
+		c'4(\p h) c( des)
+		c( h) c( des) %25
+		c c,8\f e f a b c
+		f,4 r r8 c\p f a16 f
+		f, 4 r r8 c'' a f
+		b, c d e f4 fis\fE
+		g r r8 d\pE g b16 g %30
+		g,4 r r8 d'' b g
+		c, c d d g, 4 r8 g'
+		a4 r8 a d, 4 r8 d
+		g4 r8 g c, c c c
+		c' c c c b fis g cis, %35
+		d d' r d es d c b
+		a! a a a b fis g cis,
+		d[ d'] d, r d4( cis)
+		d( es) d( cis)
+		d( es) d8 d c c %40
+		b b c es d c d d
+		g\f a b g c d b4
+		r8 b16 a b8 g c d b4
+		r8 b16 a g8 g, a a'16 g fis8 d
+		g b, c d g, g'\p f! e! %45
+		f f, r es' d b c f,
+		b\f d16 c b8 b' c b a a,
+		b d es e f[ f] f, r
+		f'\p f f f f f f f
+		es es16 d c4 r8 g a h %50
+		c\f es16 d c8 c' d c h h,
+		c4 r8 c\p d4 r8 d
+		g,4 r8 g c4 r8 c
+		f, f' f f h, h h h
+		c c' as f g f g g, %55
+		c\f d es c f g es4
+		r8 es16 d es8 c f g es4
+		r8 es f fis g[ g] g, r
+		g'4(\p fis) g( as)
+		g( fis) g( as) %60
+		g f\f es8 es f g
+		c,4 r r8 c\p d es
+		f4 r r8 f g a
+		b4 r r8 b, d es
+		f4 r r8 f, g a %65
+		b4 r r8 b c d
+		es es es es es es e e
+		f4 f, r8 f'\f a g
+		f4(\pE e!) f( ges)
+		f( e!) f( ges) %70
+		f f8 es d!4 r8 b
+		f'4 r8 a, b4 r8 b
+		es f g es f es f f,
+		b\f b d b es f d4
+		r8 d16 c d8 b es f d4 %75
+		r8 d16 c b8 d r es16 d es8 e
+		r f16 e f8 a b d, es f
+		b,4 r8 b\p c4 r8 c
+		f4 r8 f b,4 h\f
+		c r8 c\p d4 r8 d %80
+		g,4 r8 g c4 cis\f
+		d r8 d\p e!4 r8 e
+		a4 r8 a, d4 f8 e
+		d e f d a' a, a' g
+		f e f d a' a, a' g %85
+		f f f fis g g, g' f
+		e e e e f f, f' e
+		d d d d e e, e' d
+		cis cis cis cis d d, d' c
+		b b gis gis a[ a'] a, r %90
+		a'4( gis) a( b!)
+		a( gis) a( b!)
+		a g f8 d g b
+		a g a a, d[ d'] d, r
+		d4( cis) d( es) %95
+		d( cis) d( es)
+		d c8 c h h h h
+		b b b b a4 r
+		r8 a d b' g e a a,
+		d\f e f d g a f4 %100
+		r8 f16 e f8 d g a f4
+		r8 f16 e d8 d' e d cis cis,
+		d e f g a[ a] a, r
+		a'4(\p gis) a( b)
+		a( gis) a( b) %105
+		a a8\f g f d g, g'
+		f d g, g' f b a a,
+		d4 r r2\fermata \bar "||" %108 finis
+	}
+}
+
+JesuThesaureBassFigures = \figuremode {
+	<_!>2 <6>8 <_+> <6>4
+	r2 <6>8 <_+> <6>4
+	r4 <6> r q
+	r8 <6\\> <[6]>4 <6 4>8 <[5] _+>4.
+	<_+>4 <7 [_!]> <_+> <6\\> %5
+	<_+> <7 [_!]> <_+> <6\\>
+	<_+>2 <6>4 <4\+ 2>
+	<6> <4\+ 2> <[6]> <4>8 <_+>
+	r2 <6>8 <_+> <6>4
+	r2 <6>8 <_+> <6>4 %10
+	r4 <6> <9> <6>
+	<9> <8> <6 4>8 <[5] _+>4.
+	<6>2 <[6]>4. <4\+ 2>8
+	<6>2 <_+>4 <_!>8 <5>16 <6>
+	r2 \bo <[6]>4 \bc q %15
+	r2 \bo q4 \bc q
+	q2.. <5+>8
+	<6>2 <7>
+	<6> <7>
+	r4. <6>8 <6 4>4 <[5] 3> %20
+	r2 <6>4 <[6]>
+	r2 <6>4 <[6]>
+	r8 q4 <7>8 <6 4> <[5] 3>4.
+	r4 <7-> r <6! [5-]>
+	r <7-> r <6! [5-]> %25
+	r <7> <_!> <6 5>
+	r1
+	r2. <[6]>4
+	<6>8 q q4 <[8]>8 <7-> <6 4> <5 3>
+	r2 r8 <_+>4. %30
+	r2 r8 <_+> <6>4
+	<6 5 _-> <_+>2.
+	<7 _+>2 <7! _+>
+	<7! _!> \bassFigureExtendersOn \bo <[8] _->8 \bc <[7-] _-> <6- _-> <5 _-> \bassFigureExtendersOff
+	<4\+ _->2 \bo <[6\l ]>8 \bc <[6 5]>4 <7>8 %35
+	<_+>2 <6>8 q <6- [_-]> <6>
+	<6\\ 5->2 <6>8 q4 <7>8
+	<_+>2. <7>4
+	<_+> <6\\> <_+> <7>
+	<_+> <6\\> <_+> <\t> %40
+	\bo <[6]> \bc <[_-]>8 <6> <6 4>4 <[5] _+>
+	r2 <6 [_-]>8 <_+> <6>4
+	r2 \bo <[6 _-]>8 <_+> \bc <[6 \l]>4
+	r4 <6->8 <5> r4 <6>8 <[7 _+]>
+	r \bo <[6 \l]> <6 _-> \bc <[_+ \l]> r4 <6 4> \bassFigureExtendersOn %45
+	q8 q \bassFigureExtendersOff <[5] 3>8 <\t \t> <[6]>4 <4>8 <7->
+	r4 <6> <_->4 <6>
+	r8 \bo <[6 \l]>4 <6 5>8 <4> \bc <[3 \l]>4.
+	\bassFigureExtendersOn \bo <[8] _->8 \bc <[7-] _-> <6 _-> <5 _-> <4! _->2 \bassFigureExtendersOff
+	<6>4 <[_-]> r8 <8 6-> <\t \t> <5 3> %50
+	\bo <[_-\l ]>4 <6- _-> <5-> \bc <[6 \l]>
+	<_->2 <7 _+>
+	<7! _!> <7- _!>
+	<_-> <7->
+	<_->4. q8 <6- 4>4 <[5] _!> %55
+	<[_-]>2 <6 _->8 <_!> <6>4
+	r2 \bo <[6 _-]>8 <_!> \bc <[6 \l]>4
+	r8 <[6]> <_-> <7- _!> <6- 4> <[5] _!>4.
+	<[_!]>4 <7> <_!> <6\\ [5-]>
+	<_!> <7-> <_!> <6\\ [5-]> %60
+	<_!> <\t> <6> <6 5 _->8 <_!>
+	<[_-]>2. <7>8 <5>
+	<4> <_!> r2 <7>8 <5->
+	<4->8 <3> r2 <[6]>4
+	\bo <[4]>8 \bc <[3]> r2 <7>8 <5-> %65
+	\bo <[4-]> \bc <[3]> r2 <7 [_-]>8 <5->
+	r4. <8 6>8 <\t \t>4 <7 5>
+	<6 4> <[5] 3>2.
+	r4 <7-> r <6! [5-]>
+	r <7-> r <6! [5-]> %70
+	r2 <7 [5-]>8 <6>4.
+	\bo <[6] 4>8 \bc <[5] 3> r <5-> <9 4-> <[8] 3>4.
+	<9 7>8 <7-> <5>4 <6 4> <[5] 3>
+	r2 <6>4 <[6]>
+	r2 \bo <[6]>4 \bc q %75
+	r2. <6>4
+	r4. \bo <[6 5-]>4 <6>8 \bc <[6 5]>4
+	r4. <6>8 <7 _->2
+	<7-> <4->8 <3> <7->4
+	<_->4. <6- [_-]>8 <7 [5-]>2 %80
+	<7 _!> <4>8 <_-> <7- _!>4
+	r4. <6>8 <7>2
+	<7 _+> <4>8 <3> \bo <[6]> \bc <[6\\]>
+	r \bo <[6\\]> \bc <[6]>4 <6 4> <[5] _+>
+	\bo <[6]>8 <6\\> \bc <[6]>4 <6 4> <[5] _+> %85
+	\bo <[6]>4. \bc <[5!]>8 r2
+	<[6 5]>1
+	r4 <6>2.
+	<[6 5]>2 <9 4>4 <[8] 3>
+	r <7 [_!]> \bo <[6 4]>8 \bc <[5 _+]>4. %90
+	<\t>4 <7 [_!]> <_+> <6\\>
+	<_+> <7 [_!]> <_+> <6\\>
+	<_+> <\t> r4. <6>8
+	<6 4>4 <[5] _+>2.
+	<_+>4 <7> <_+> <6\\> %95
+	<_+> <7> <_+> <6\\>
+	<_+> <\t> <6>2
+	<6\\> <_+>
+	r8 <[7 _+]>4. <6 5>4 <_+>
+	r2 <6>8 <_+> <6>4 %100
+	r2 <6>8 <_+> <[6]>4
+	r4 <6>2 q4
+	r8 <6\\> <[6]>4 <6 4>8 <[5] _+>4.
+	<_+>4 <7 [_!]> <_+> <6\\>
+	<_+> <7 [_!]> <_+> <6\\> %105
+	<_+>4. <\t>8 <[6]>4 <4\+ 2>
+	<[6]> <4\+ 2> <[6]> <4>8 <_+>
+	r1 %108 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

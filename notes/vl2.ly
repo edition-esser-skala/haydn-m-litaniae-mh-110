@@ -392,3 +392,117 @@ JesuRefugiumViolinoII = {
 		b2 a\fermata \bar "||"
 	}
 }
+
+JesuThesaureViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoJesuThesaure
+		a'4\fE d8 f \appoggiatura f16 e8 d16 cis d8 a
+		a'4 d,8 f \appoggiatura f16 e8 d16 cis d8 a
+		a'8.(\trill g32 a) b8 f g8.(\trill f32 g) a8 e
+		f16 d cis e d a g f f8\trill e r4
+		cis'(\p d) cis( gis) %5
+		a( d) cis( gis)
+		a cis,\f\trill d8 f e( a,)
+		r f' e( a,) r d4 cis8
+		d4 r8 a'\p b e, d4
+		r8 d16 cis d8 a' b e, d4 %10
+		d'2 b8 g r a
+		a4 f8 d d cis cis16 d e cis
+		a4 r8 d a' cis, cis16 d e cis
+		a4 r8 d cis4 c8\f d16 e
+		f8\p f16 e f8 c d g, c4 %15
+		r8 f16 e f8 c d g, c4
+		r8 f f f f f f fis
+		g g g g g g g g
+		f! f f f f f f f
+		e g f d' c,4 r %20
+		c'\f f8 a \appoggiatura a16 g8 f16 e f8 c
+		c'4 f,8 a \appoggiatura a16 g8 f16 e f8 c,
+		c'8.(\trill b32 c) f,8 a, a\trill g r4
+		e'(\p f) e( h')
+		c( f,) e( h') %25
+		c r16 e\f g b a c, f f, g8 e'
+		f,4 a,8\p c \appoggiatura c16 b8 a16 g a8 c'
+		a f a, c \appoggiatura c16 b8 a16 g c8 a
+		d e f g c, c'(\f b a)
+		g4 b,8\p d \appoggiatura d16 c8 b16 a b8 d' %30
+		b g b, d \appoggiatura d16 c8 b16 a d8 d
+		es es d d d b' b b
+		r e, e e r a a a
+		r d, d d es2
+		fis d8 a' g4 %35
+		fis r8 fis g( f) es( d)
+		c c c c d( a') g( b)
+		a-! fis-! r4 d'8( a) b( g)
+		fis( d) r4 d'8( a) b( g)
+		fis d r4 a'8 a a a %40
+		g g'4 g8 d,4 r
+		d'\f g8 b \appoggiatura b16 a8 g16 fis g8 d
+		d'4 g,8 b \appoggiatura b16 a8 g16 fis g8 d,
+		d'8.(\trill c32 d) es8 b c8.(\trill b32 c) d8 a'16 c,
+		b g fis g a,8 fis' g g, r4 %45
+		r2 r4 r8 f'\f
+		f'8.(\trill es32 f) g8 d es8.(\trill d32 es) f8 c
+		d16 b f' d g es c b b8\trill a r4
+		R1
+		r2 r4 r8 g\f %50
+		g'8.(\trill f32 g) as8 es f8.(\trill es32 f) g8 d
+		es8 g,\p as g r fis fis fis
+		r f g f r e! e e
+		r c c c d2
+		es8 g c as' g,,4 r %55
+		g'\f c8 es \appoggiatura es d8 c16 h c8 g
+		g'4 c,8 es \appoggiatura es16 d8 c16 h c8 g
+		g'16 es c4 es,8 es\trill d r4
+		h(\p c) h( fis')
+		g( c) h( fis) %60
+		g h\f\trill c8 g as h,
+		c c'(\p es c) es,4 r
+		r8 c' a'!( f) a,4 r
+		r8 f d'( b) d,4 r
+		r8 f c'( a) f4 r %65
+		r8 d' b( f) d4 r
+		R1
+		r2 r8 a'\f c( b)
+		a4(\p b) a( e!)
+		f( b) a( e!) %70
+		f r r2
+		R1*2
+		f'4\f b8 d \appoggiatura d16 c8 b16 a b8 f,
+		f'4 b,8 d \appoggiatura d16 c8 b16 a b8 f %75
+		f'8.(\trill es32 f) b8 f g8.(\trill f32 g) c8 g
+		a8.(\trill g32 a) c8 c, b b,4 a8
+		b d\p b'16( d,) b'8 r es, es'16( c) es8
+		r f, \once \slurDashed a16( f) a8 r d,16(\f f) f( es) es( d)
+		c8 es\p \slurDashed c'16( es,) c'8 r f, f'16( d) f8 %8
+		r g, h16( g) h8 \slurSolid r es,16(\f g) \slurDashed g( f) f( e) \slurSolid
+		d8 f\p \once \slurDashed d'16( f,) d'8 r g, g'16( e) g8
+		r a, \once \slurDashed cis16( a) cis8 r4 a,8 cis
+		d( g) f a16 d, d4 cis8 cis
+		d( cis) d f f4 e8 a %85
+		\slurDashed d16( a) d8 r a g16( d) g8 r b
+		g'16( b,) g'8 r g, f16( c) f8 r a
+		f'16( a,) f'8 r f, e16( g,) e'8 r g
+		e'16( g,) e'8 r e, e4 d8 f
+		d'16( f,) d'8 \slurSolid r d, d cis r4 %90
+		a'( d) cis( gis)
+		a( f'8 d) cis4( gis)
+		a e\fE d4. g8
+		f16( a) cis( d) e,8 cis' d d, r4
+		fis(\p g) fis( cis) %95
+		d( g) fis( cis)
+		d r r2
+		r a'2~\f
+		a8 g'\p f d g,, r a r
+		a'4\f d8 f \appoggiatura f16 e8 d16 cis d8 a %100
+		a'4 d,8 f \appoggiatura f16 e8 d16 cis d8 a
+		a'8.(\trill g32 a) b8 f g8.(\trill f32 g) a8 e
+		f16 d cis e d a g f f8\trill e r4
+		cis'(\p d) cis( gis)
+		a( d) cis( gis) %105
+		a cis,\f d8 f e( a,)
+		r f' e( a,) r d4 cis8
+		d4 r r2\fermata \bar "||" %108 finis
+	}
+}

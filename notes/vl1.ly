@@ -390,6 +390,121 @@ JesuRefugiumViolinoI = {
 	}
 }
 
+JesuThesaureViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoJesuThesaure
+		a'4\fE d8 f \appoggiatura f16 e8 d16 cis d8 a
+		a'4 d,8 f \appoggiatura f16 e8 d16 cis d8 a
+		a'8.(\trill g32 a) b8 f g8.(\trill f32 g) a8 e
+		f16 d g e a f e d d8\trill cis r a\p
+		e' e r16 d-! e-! f-! e8-! e-! r d %5
+		cis16( a) e'8 r16 d-! e-! f-! e8 e r d
+		cis16( a) e'8 r a\f d d r16 a cis a
+		d8 d r16 a cis a d8 d,, e4\trill
+		d r8 f'\p \appoggiatura f16 e8 d16 cis d8 a
+		a'4 d, 8 f \appoggiatura f16 e8 d16 cis d8 a %10
+		a'8.(\trill g32 a) b8 f g8.(\trill f32 g) a8 e
+		f8.(\trill e32 f) a8 f, f e r a
+		d8.(\trill cis32 d) a'8 f e a, r a
+		d8.(\trill cis32 d) a'8 f e a, r b'\f
+		a4 r8 a,\pE g f16 e f8 c %15
+		c'4 f,8 a g f16 e f8 a16 b
+		c8 c c c d d d d
+		d d d d c c c c
+		c c c c b b b b
+		g' b, a d c,4 r %20
+		c'\f f8 a \appoggiatura a16 g8 f16 e f8 c
+		c'4 f,8 a \appoggiatura a16 g8 f16 e f8 c,
+		c'8.(\trill b32 c) d8 f, f\trill e r c'\p
+		g'-! g-! r16 f-! g-! as-! g8-! g-! r f
+		\once \slurDashed e16( c) g'8 r16 f g as g8 g r f %25
+		\once \slurDashed e16( c) g'8 r16 e\f g b a c, f f, g8 e'
+		f, c\p f a \appoggiatura a16 g8 f16 e f8 c
+		c'4 f,8 a \appoggiatura a16 g8 f16 e f8 a
+		g a b4 a8 es'(\f d c)
+		b d,\p g b \appoggiatura b16 a8 g16 fis g8 d %30
+		d'4 g,8 b \appoggiatura b16 a8 g16 fis g8 g
+		g g fis fis g d' es d
+		r cis cis cis r c d c
+		r h h h c2
+		es4 a, d8 c b4\trill %35
+		a8 a16 fis d fis a d c8( b) as( g)
+		fis es es es d( d') b( g')
+		fis-\parenthesize-! d,-\parenthesize-! r d' a' a r16 g a b
+		a8 a r g \once \slurDashed fis16( d) a'8 r16 g a b
+		a8 a r g \once \slurDashed fis16( d) a'8 r d, %40
+		d16 b g'4 g8 d,4 r
+		d'\f g8 b \appoggiatura b16 a8 g16 fis g8 d
+		d'4 g,8 b \appoggiatura b16 a8 g16 fis g8 d,
+		d'8.(\trill c32 d) es8 b c8.(\trill b32 c) d8 a'16 c,
+		b g fis g a,8 fis' g g, r4 %45
+		r2 r4 r8 f'\f
+		f'8.(\trill es32 f) g8 d es8.(\trill d32 es) f8 c
+		d16 b f' d g es c b b8\trill a r4
+		R1
+		r2 r4 r8 g\f %50
+		g'8.(\trill f32 g) as8 es f8.(\trill es32 f) g8 d
+		es8 es\p es es r a,! a a
+		r d d d r g, g g
+		r as as as f4 f'8 d
+		g es c as' g,,4 r %55
+		g'\f c8 es \appoggiatura es d8 c16 h c8 g
+		g'4 c,8 es \appoggiatura es16 d8 c16 h c8 g
+		g'8.(\trill f32 g) as8 c, c\trill h r g\p
+		d' d r16 c-! d-! es-! d8-! d-! r c
+		\once \slurDashed h16( g) d'8 r16 c d es d8 d r c %60
+		\once \slurDashed h16( g) d'8 r g\f g16 es d c d4\trill
+		c8 es(\p g es) c4 r
+		r8 f c'( a!) f4 r
+		r8 b, f'( d) b4 r
+		r8 f es'( c) a4 r %65
+		r8 f' d( b) f4 r
+		R1
+		r8 f'\f c'( a) f4 r8 f,\p
+		c' c r16 b-! c-! des-! c8 c r b
+		a16( f) c'8 r16 b c des c8 c r b %70
+		a16( f) c'8 r f, f16( d) f8 r f
+		\slurDashed f16( a,) f'8 r f f16( b,) f'8 r4 \slurSolid
+		R1
+		f'4\f b8 d \appoggiatura d16 c8 b16 a b8 f,
+		f'4 b,8 d \appoggiatura d16 c8 b16 a b8 f %75
+		f'8.(\trill es32 f) b8 f g8.(\trill f32 g) c8 g
+		a8.(\trill g32 a) c8 es, d16 b f' b, c4\trill
+		b8 f\p d'16( b) d8 r g, g'16( es) g8
+		r a, \once \slurDashed c16( a) c8 r b16(\f as) as( g) g( f)
+		es8 g\p es'16( c) es8 r as, as'16( f) as8 %80
+		r h, \once \slurDashed d16( h) d8 r c16(\f b) b( a) a( g)
+		f8 a\p \slurDashed f'16( d) f8 r b, b'16( g) b8 \slurSolid
+		r cis, e16( cis) e8 r d a g
+		f( cis) d f' f4 e8 a,
+		a'4. d,8 d4 cis8 a %85
+		a'16( d,) a'8 r c, b16( g) b8 r g'
+		\slurDashed b16( g) b8 r b, a16( f) a8 r f'
+		a16( f) a8 r b, g16( e) g8 r e'
+		g16( e) g8 r a, a'16( b) a8 r a,
+		f'16( d) f8 r f, f e r a \slurSolid %90
+		e' e r16 d-! e-! f-! e8 e r d
+		\once \slurDashed cis16( a) e'8 r16 d e f e8 e r d
+		\once \slurDashed cis16( a) e'8 r a,\f a'16( f) f( d) \slurDashed d( b) b( g) \slurSolid
+		f( a) cis( d) e,8 cis' d d, r d'\p
+		a' a r16 g-! a-! b-! a8 a r g %95
+		fis16( d) a'8 r16 g a b a8 a r g
+		\once \slurDashed fis16( d) a'8 r4 r2
+		r a\f
+		a,8 g'\p f d g,, r a r
+		a'4\f d8 f \appoggiatura f16 e8 d16 cis d8 a %100
+		a'4 d,8 f \appoggiatura f16 e8 d16 cis d8 a
+		a'8.(\trill g32 a) b8 f g8.(\trill f32 g) a8 e
+		f16 d g e a f e d d8\trill cis r a\p
+		e' e r16 d-! e-! f-! e8-! e-! r d
+		cis16( a) e'8 r16 d-! e-! f-! e8 e r d %105
+		cis16( a) e'8 r a\f d d r16 a cis a
+		d8 d r16 a cis a d8 d,, e4\trill
+		d r r2\fermata \bar "||" %108 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
