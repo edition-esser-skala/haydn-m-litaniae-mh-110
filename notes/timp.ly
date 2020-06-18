@@ -90,3 +90,47 @@ JesuRefugiumTimpani = {
 		R1\fermataMarkup \bar "||"
 	}
 }
+
+JesuGaudiumTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoJesuGaudium
+		c4\fE c c
+		c r g
+		c c c
+		c r g
+		c c c %5
+		c r r
+		g g g
+		g r r
+		R2.*13 %21
+		g4\fE r r
+		R2.*9 %31
+		g4 g g
+		g r r
+		R2.*35 %68
+		c4\fE c c
+		c r g %70
+		c c c
+		c r g
+		c c c
+		c r r
+		g g r %75
+		R2.*8 %83
+		c4\fE r r
+		g r r %85
+		R2.*4
+		r4 r g %90
+		c r r
+		c r r
+		g r g
+		c r r
+		g r g %95
+		c r g
+		c r r
+		R2.*12 %109
+		g4 g g %110
+		g2.
+		R\fermataMarkup \bar "||" %112 finis
+	}
+}

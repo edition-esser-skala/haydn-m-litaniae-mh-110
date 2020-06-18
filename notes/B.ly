@@ -486,6 +486,156 @@ JesuThesaureBassoLyrics = \lyricmode {
 	bis. %100 finis
 }
 
+JesuGaudiumBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \autoBeamOff \tempoJesuGaudium
+		\mvTr b4\fE^\tuttiE b r
+		b8 b16 b b'8 b a4
+		b r r
+		b b8 b16 b a4
+		b b, b'8([ a)] %5
+		g4. f8 es e
+		f4 f r
+		R2.*7 %14
+		r4 \mvTr f\fE^\tutti f %15
+		e2 e4
+		d2 d4
+		c c r
+		f2.
+		c %20
+		f,8([ a b)] g c4
+		f, r r
+		R2.*9 %31
+		f'4 f r8 f
+		f4 f8 f es! d
+		c4 c r
+		d8. d16 d8 d fis d %35
+		g4 g r
+		es4. d8 c cis
+		d8. d16 d4 r
+		R2.*7 %45
+		r4 \mvTr g\fE^\tuttiE g
+		fis2 fis4
+		f2 f4
+		e2 e4
+		R2. %50
+		d2 d4
+		g2.
+		c,8([ es)] d2
+		g,4 r r
+		R2.*9 %63
+		g'4 g r
+		g4. f8 es d %65
+		c4 c r
+		f4. es8 d c
+		b4 b r
+		b b r
+		b4. b'8 a8. a16 %70
+		b4 r b,8 b
+		b4. b'8 a4
+		b4 b, b'8 a
+		g4 g8 f es e
+		f8. f16 f4 r %75
+		\mvTr f4.\pE^\solo( d'8) c([ b)]
+		h([ c)] c2
+		f,4.( es'8) d([ c)]
+		cis([ d)] d2
+		b4.( g8) es([ b)] %80
+		b'4. f8[ d b]
+		es[ f g a] b([ e,)]
+		f4 f r
+		r \mvTr b,\fE^\tutti b
+		a2 a4 %85
+		r g g'
+		f2 f4
+		r es es
+		d2( g4)
+		es f2 %90
+		b,4 r r
+		R2.
+		a'4.( c8) b([ a)]
+		a([ b)] b4 r
+		a4.( c8) b([ a)] %95
+		b b es,4( f)
+		b, r r
+		R2.*14 %111
+		R2.\fermataMarkup \bar "||" %112 finis
+	}
+}
+
+JesuGaudiumBassoLyrics = \lyricmode {
+	\xE Je -- su
+	gau -- di -- um An -- ge --
+	lo -- rum,
+	rex Pa -- tri -- ar -- cha --
+	rum, in -- spi -- %5
+	ra -- tor Pro -- phe --
+	ta -- rum, \x
+
+	mi -- se -- %15
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi --
+	se -- %20
+	re -- re no --
+	bis.
+
+	\xE Je -- su ma -- %32
+	gi -- ster A -- po -- sto --
+	lo -- rum, do --
+	ctor E -- van -- ge -- li -- %35
+	sta -- rum, for --
+	ti -- tu -- do
+	Mar -- ty -- rum, \x
+
+	mi -- se -- %46
+	re -- re,
+	mi -- se --
+	re -- re,
+	%50
+	mi -- se --
+	re --
+	re no --
+	bis.
+
+	\xE Je -- su %64
+	lu -- men Con -- fes -- %65
+	so -- rum,
+	mi -- se -- re -- re
+	no -- bis,
+	Je -- su
+	spon -- se Vir -- gi -- %70
+	num, mi -- se --
+	re -- re no --
+	bis, Je -- su co --
+	ro -- na San -- cto -- rum
+	o -- mni -- um, \x %75
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se -- %80
+	re -- _
+	_ re __
+	no -- bis,
+	mi -- se --
+	re -- re, %85
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re --
+	re no -- %90
+	bis,
+
+	mi -- se --
+	re -- re,
+	mi -- se -- %95
+	re -- re no --
+	bis. %97 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

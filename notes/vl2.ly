@@ -506,3 +506,122 @@ JesuThesaureViolinoII = {
 		d4 r r2\fermata \bar "||" %108 finis
 	}
 }
+
+JesuGaudiumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoJesuGaudium
+		<b d b'>4\fE d'16 b a b f d c d
+		b f' f f f f f f f c' c c
+		b8 f' d16 b a b f d c d
+		b f' f f f f f f f c' c c
+		b8 f' b16 f es f d b d b %5
+		d,8 b' d16 b a b b' g b d,
+		f,8 f' c16 a g a f a g a
+		f8 a\p a a f a
+		r g g g g g
+		r f f f f f %10
+		r e e e e e
+		r des des des des' des
+		r c c c c a
+		a g f f e e
+		f16\f c' h c f c h c a' f e f %15
+		g c, h c d c h c g c h c
+		f a g a f a g a f d c h
+		c e e e e g g g g g, g g
+		f c' c c c c c c c c c c
+		c c c c c c c c c c c c %20
+		c8 f, g g g g
+		a4 r r
+		r a8(\p f) d'( h)
+		c4 r r
+		r e,8( c) g'( e) %25
+		f4 r r
+		e8(\f g,) e'( g,) e'( g,)
+		des'( g,) des'( g,) des'( g,)
+		e'( g,) e'( g,) e'( g,)
+		des'( g,) des'( g,) c( g') %30
+		f-! c'-! d!-! g,-! b-! e,-!
+		f4 a'16 f e f c a g a
+		f a a a a c c c a c h d
+		es!8 g g16 es d es c g fis g
+		fis a a a a c c c a' c, d c %35
+		d,8 g' g16 b, a b b g a g
+		g8 g' b16 g fis g c, a b g
+		d8 d' a'16 fis e fis d c b a
+		g8 b\p b b g b
+		r a a a a a %40
+		r g g g es es
+		r d d d d d
+		r es es es es es
+		r d fis a g g
+		g es d d fis fis %45
+		g16\f d' cis d g d cis d b' g fis g
+		a d, cis d es d cis d a d cis d
+		h d c d es d c d h d c d
+		g c, h c d c h c g c h c
+		g' c, b c b' g fis g b g fis g %50
+		fis d d d d d d d d d d d
+		d d d d d d d d d d d d
+		es8 g g g fis fis
+		g4 r r
+		r b,,8(\p g) es'( cis) %55
+		d4 r r
+		r fis8( d) a'( fis)
+		g4 r r
+		fis8(\ff a,) fis'( a,) fis'( a,)
+		es'( a,) es'( a,) es'( a,) %60
+		fis'( a,) fis'( a,) fis'( a,)
+		es'( a,) es'( a,) d( a)
+		r d'-! es-! a,-! c-! fis,-!
+		g4 b16 g fis g d' b a b
+		g' d d d d d d d g h, h h %65
+		c8 es g16 es d es g c, h c
+		a c c c c f f f f a, a a
+		b d d d d f f f f b b b
+		b8 f d16 b a b f d c d
+		b f' f f f f f f f c' c c %70
+		b8 f' d16 b a b f d c d
+		b f' f f f f f f f c' c c
+		d8 f b16 f es f d b d b
+		d,8 b' d16 b a b b' g b d,
+		d8 f f16 c b c a f c' a %75
+		b8 f\p d d d d
+		r c c c c c
+		r a a a a f'
+		r f f f d d
+		r b b b g' g %80
+		r b, b b f' f
+		g g c c b b
+		b4\trill a8 f\f f a
+		b4 d16 b a b d b a b
+		c f e f g f e f g f e f %85
+		b, es d es f es d es b' g fis g
+		a, d c d es d c d a' f e f
+		g, c h c d c h c g' es d es
+		f, b a b c b a b b' d, c d
+		g8 b, b b a a %90
+		b d, d16 c d es c b c d
+		b4 f'8( b) a( g)
+		g( f) f-! c d es
+		es( d) d b' a g
+		g( f) f c d es %95
+		d d' c c c c
+		b4 r r
+		r d,8(\p b) g'( e)
+		f4 r r
+		r a8( f) c'( a) %100
+		b4 r r
+		h8(\ff d,) h'( d,) h'( d,)
+		as'( d,) as'( d,) as'( d,)
+		h'( d,) h'( d,) h'( d,)
+		as'( d,) as'( d,) as'( d,) %105
+		g( es) g( es) g( es)
+		ges( c,) ges'( c,) ges'( c,)
+		f( b) f( b) f( b)
+		c4 c, c
+		c2.\trill %110
+		c~\startTrillSpan
+		c2\stopTrillSpan r4\fermata \bar "||" %112 finis
+	}
+}

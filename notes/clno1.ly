@@ -94,3 +94,63 @@ JesuRefugiumClarinoI = {
 		e4 e8 e16 e e2\fermata \bar "||" %21 finis
 	}
 }
+
+JesuGaudiumClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoJesuGaudium
+		c'4\fE c c
+		c r f
+		e c c
+		c r f
+		e e e %5
+		e r8 e f e
+		e4 d d
+		d r r
+		R2.*9 %17
+		r4 \pa d\fE d \pd
+		d2 r4
+		\pao d2 r4 %20
+		d8 g \pao g4 fis
+		g r r
+		R2.*9 %31
+		g4 d d
+		d r r
+		R2.*4 %37
+		e8. e16 e4 r
+		R2.*12 %50
+		e4\fE r r
+		R2.
+		r4 e e8. e16
+		e4 r r
+		R2.*9 %63
+		e4 r8 e e e
+		e4 r r %65
+		\pao d r8 \pa d d d \pd
+		d4 r d
+		e r r
+		c c c
+		c r f %70
+		e c c
+		c r f
+		e e e
+		e r8 e f e
+		e4 d r %75
+		R2.*8 %83
+		e4\fE r r
+		g r r %85
+		R2.*4
+		r4 r d %90
+		c r r
+		e r r
+		g r g
+		e r r
+		g r g %95
+		e d d
+		c r r
+		R2.*12 %109
+		d4 d d %110
+		d2.
+		R\fermataMarkup \bar "||" %112 finis
+	}
+}

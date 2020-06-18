@@ -551,6 +551,154 @@ JesuThesaureTenoreLyrics = \lyricmode {
 	bis. %100 finis
 }
 
+JesuGaudiumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 3/4 \autoBeamOff \tempoJesuGaudium
+		\mvTr d4\fE^\tuttiE b r
+		b8 b16 b b8 b c4
+		b r r
+		b b8 b16 b c4
+		b b b %5
+		b4. b8 c b
+		b4 a r
+		\mvTr c4.(\pE^\solo f8) e([ d)]
+		d([ c)] c2
+		b4.( d8) c([ b)] %10
+		b([ a)] a2
+		g4 e'2
+		e8([ f)] c2~
+		c8.\trill d16 f,4( g)\trill
+		f \mvTr f\fE^\tutti f %15
+		g2 c4
+		a2 d4
+		g, g r
+		a4.( c8) b8[( a)]
+		g4.( g'8[ f e] %20
+		f) c d4( c)
+		c r r
+		R2.*9 %31
+		c4 f, r8 a
+		a4 a8 a a h
+		c4 c r
+		fis,8. fis16 a8 a d d %35
+		d4 d r
+		es4. es8 es e
+		d8. d16 d4 r
+		R2.*7 %45
+		r4 \mvTr d\fE^\tuttiE g,
+		a2 d4
+		h2 d4
+		g,2 g4
+		R2. %50
+		a4.( c8) b([ a)]
+		b4.( d8[ c b]
+		es) c d2
+		d4 r r
+		R2.*9 %63
+		b4 b r
+		b4. b8 h h %65
+		c4 c r
+		a4. a8 a a
+		b4 b r
+		d b r
+		b4. b8 c8. c16 %70
+		b4 r b8 b
+		b4. b8 c4
+		b b b8 b
+		b4 b8 b c b
+		b8. a16 a4 r %75
+		R2.*8 %83
+		r4 \mvTr b\fE^\tuttiE b
+		c2 f,4 %85
+		g2 g4
+		a2 d4
+		r g, es
+		b'2.
+		b4 b( a) %90
+		b r r
+		R2.
+		c4.( es8) d([ c)]
+		c([ d)] d4 r
+		c4.( es8) d([ c)] %95
+		d d c2
+		b4 r r
+		R2.*14 %111
+		R2.\fermataMarkup \bar "||" %112 finis
+	}
+}
+
+JesuGaudiumTenoreLyrics = \lyricmode {
+	Je -- su
+	gau -- di -- um An -- ge --
+	lo -- rum,
+	rex Pa -- tri -- ar -- cha --
+	rum, in -- spi -- %5
+	ra -- tor Pro -- phe --
+	ta -- rum,
+	mi -- se --
+	re -- re,
+	mi -- se -- %10
+	re -- re,
+	mi -- se --
+	re -- _
+	re no --
+	bis, mi -- se -- %15
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- %20
+	re no --
+	bis.
+
+	Je -- su ma -- %32
+	gi -- ster A -- po -- sto --
+	lo -- rum, do --
+	ctor E -- van -- ge -- li -- %35
+	sta -- rum, for --
+	ti -- tu -- do
+	Mar -- ty -- rum,
+
+	mi -- se -- %46
+	re -- re,
+	mi -- se --
+	re -- re,
+	%50
+	mi -- se --
+	re --
+	re no --
+	bis.
+
+	Je -- su %64
+	lu -- men Con -- fes -- %65
+	so -- rum,
+	mi -- se -- re -- re
+	no -- bis,
+	Je -- su
+	spon -- se Vir -- gi -- %70
+	num, mi -- se --
+	re -- re no --
+	bis, Je -- su co --
+	ro -- na San -- cto -- rum
+	o -- mni -- um, %75
+
+	mi -- se -- %84
+	re -- re, %85
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re --
+	re no -- %90
+	bis,
+
+	mi -- se --
+	re -- re,
+	mi -- se -- %95
+	re -- re no --
+	bis. %97 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

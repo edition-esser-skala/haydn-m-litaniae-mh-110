@@ -505,6 +505,125 @@ JesuThesaureViolinoI = {
 	}
 }
 
+JesuGaudiumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoJesuGaudium
+		<b d b'>4\fE d'16 b a b f d c d
+		b f' f f f f f f f es' es es
+		d8 f d16 b a b f d c d
+		b f' f f f f f f f es' es es
+		d8 f b16 f es f d b d b %5
+		d,8 b' d16 b a b b' g b d,
+		f,8 f' a16 f e f f c b c
+		a8 a-!\p c-! f-! a-! f-!
+		r c' g e c c,
+		r d f b d f %10
+		r a e c a a,
+		r g'' g g g g
+		r f f f f c
+		c b a a g g
+		f16\f c' h c f c h c a' f e f %15
+		g c, h c d c h c g c h c
+		f a g a f a g a f d c h
+		c g' g g g b! b b b b, b b
+		a c' c c c c c c c c c c
+		c c c c c c c c c c c c %20
+		c,8 f f f e e
+		f4 a,8(\p f) c'( a)
+		f'2.~
+		f8( e) d( c) h( c)
+		b'!2.~ %25
+		b8( g) a( e) f( c)
+		des4\f r8 des16-! c-! b( as) g-! f-!
+		e4 r8 e16 f g as b c
+		des4 r8 des16 c b as g f
+		e4 r8 b''16 g b g f e %30
+		f8-! c-! d!-! g,-! b-! e,-!
+		f4 a'16 f e f c a g a
+		f a a a a c c c a c h d
+		es!8 g g16 es d es c g fis g
+		fis a a a a c c c a' c, d c %35
+		d,8 b'' b16 g fis g g b, a b
+		b8 b' b16 g fis g c, a b g
+		d8 d' a'16 fis e fis d c b a
+		b8 b\p d-! g-! b-! g-!
+		r d' a fis d d, %40
+		r es g c es fis
+		r b g d b g
+		r es as c es c
+		r a d c b g
+		es' c b b a a %45
+		g16\f d' cis d g d cis d b' g fis g
+		a d, cis d es d cis d a d cis d
+		h d c d es d c d h d c d
+		g c, h c d c h c g c h c
+		g' c, b c b' g fis g b g fis g %50
+		fis d' d d d d d d d d d d
+		d d d d d d d d d d d d
+		d8 c b b a a
+		g4 b,8(\p g) \once \slurDashed d'( b)
+		g'2.~ %55
+		g8( fis) a( fis) cis( d)
+		c'!2.~
+		c8( a) b( fis) g( d)
+		es4\f r8 es16 d c b a g
+		fis4 r8 fis16 g a b c d %60
+		es4 r8 es16 d c b a g
+		fis4 r8 fis'16 g a g a fis
+		g8 d-! es-! a,-! c-! fis,-!
+		g4 b16 g fis g d' b a b
+		g' d d d d d d d g h, h h %65
+		c8 es g16 es d es g c, h c
+		a c c c c f f f f a, a a
+		b d d d d f f f f b b b
+		b8 f d16 b a b f d c d
+		b f' f f f f f f f es' es es %70
+		d8 f d16 b a b f d c d
+		b f' f f f f f f f es' es es
+		d8 f b16 f es f d b d b
+		d,8 b' d16 b a b b' g b d,
+		d8 f f16 c b c a f c' a %75
+		b8 b-!\p d-! f-! b-! f-!
+		r c' a f c f
+		r c es a c a
+		r b f d b f
+		r g g g b b %80
+		r f f f b b
+		b b es es d d
+		d4\trill c8 a-!\f c-! es-!
+		d16 b a b d b a b d b a b
+		c f e f g f e f g f e f %85
+		b, es d es f es d es b' g fis g
+		a, d c d es d c d a' f e f
+		g, c h c d c h c g' es d es
+		f, b a b c b a b b' d, c d
+		g8 g c, c c c %90
+		b f f16 es f g es d es f
+		d f' f f f f f f f f f f
+		f f f f f f f f f f f f
+		f f f f f f f f f f f f
+		f f f f f f f f f f f f %95
+		f8 b b b a a
+		b4 d,8(\p b) f'( d)
+		b'2.~
+		b8( a) g( f) e( f)
+		es2.~ %100
+		es8( d) c( b) a( b)
+		as'4\f r8 as16 g f es d c
+		h4 r8 h16 c d es f g
+		as4 r8 as16 g f es d c
+		h4 r8 h16 c d c d h %105
+		c4 r8 g'16 f es d c b
+		a4 r8 a16 b c b c a
+		b4 r8 b16 c d c d b
+		es4 es, es
+		es2.\trill %110
+		es~\startTrillSpan
+		es2\stopTrillSpan r4\fermata \bar "||" %112 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

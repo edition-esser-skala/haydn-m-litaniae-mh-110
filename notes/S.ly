@@ -595,6 +595,139 @@ JesuThesaureSopranoLyrics = \lyricmode {
 	bis. %100 finis
 }
 
+JesuGaudiumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \autoBeamOff \tempoJesuGaudium
+		\mvTr b'4\fE^\tutti f r
+		d'8 d16 d d8 d es4
+		d r r
+		d d8 d16 d es4
+		d4 d d %5
+		d4. d8 es d
+		d4 c r
+		R2.*7 %14
+		\mvTr c4.(\fE^\tutti f8) e([ d)] %15
+		d([ c)] c2
+		f4.( a,8) a([ h)]
+		c2.~
+		c~
+		c~ %20
+		c8 f, g2
+		f4 r r
+		R2.*9 %31
+		f'4 c r8 c
+		c4 c8 c c d
+		es4 es es4~
+		es8 es es es d c %35
+		c([ b)] b4 b~
+		b8 b b4 c8([ b)]
+		b8. a16 a4 r
+		R2.*7 %45
+		\mvTr d4.(\fE^\tuttiE g8) f!([ es)]
+		es([ d)] d2
+		d4.( f8) d([ h)]
+		h([ c)] c2
+		c4 cis2 %50
+		d2.~
+		d~
+		d8 c b4( a)
+		g r r
+		R2.*9 %63
+		d'4 g, r
+		d'4. d8 d d %65
+		es4 es r
+		c4. c8 c c
+		d4 d r
+		b f r
+		d'4. d8 es8. es16 %70
+		d4 r d8 d
+		d4. d8 es4
+		d d d8 d
+		d4 d8 d es d
+		d8. c16 c4 r %75
+		R2.*8 %83
+		\mvTr f,4.(\fE^\tuttiE b8) a([ g)]
+		g([ f)] f2 %85
+		es'4.( g8) f([ es)]
+		es([ d)] d2
+		c4.( es8) d([ c)]
+		f4( es8[ d)] c[( b)]
+		c2.\trill %90
+		b4 b b
+		f'2.~
+		f~
+		f~
+		f~ %95
+		f8 b, b4( a)
+		b r r
+		R2.*14 %111
+		R2.\fermataMarkup \bar "||" %112 finis
+	}
+}
+
+JesuGaudiumSopranoLyrics = \lyricmode {
+	Je -- su
+	gau -- di -- um An -- ge --
+	lo -- rum,
+	rex Pa -- tri -- ar -- cha --
+	rum, in -- spi -- %5
+	ra -- tor Pro -- phe --
+	ta -- rum,
+
+	mi -- se -- %15
+	re -- re,
+	mi -- se --
+	re --
+
+	re no -- %21
+	bis.
+
+	Je -- su ma -- %32
+	gi -- ster A -- po -- sto --
+	lo -- rum, do --
+	ctor E -- van -- ge -- li -- %35
+	sta -- rum, for --
+	ti -- tu -- do
+	Mar -- ty -- rum,
+
+	mi -- se -- %46
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se -- %50
+	re --
+
+	re no --
+	bis.
+
+	Je -- su %64
+	lu -- men Con -- fes -- %65
+	so -- rum,
+	mi -- se -- re -- re
+	no -- bis,
+	Je -- su
+	spon -- se Vir -- gi -- %70
+	num, mi -- se --
+	re -- re no --
+	bis, Je -- su co --
+	ro -- na San -- cto -- rum
+	o -- mni -- um, %75
+
+	mi -- se -- %84
+	re -- re, %85
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re __
+	no -- %90
+	bis, mi -- se --
+	re --
+
+	re no -- %96
+	bis. %97 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

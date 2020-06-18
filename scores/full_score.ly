@@ -219,63 +219,134 @@
 	% 		\midi { \tempo 4 = 45 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "4"
+	% 		title = "J E S U   T H E S A U R E   F I D E L I U M"
+	% 	}
+	% 	\tocSection "4" "Jesu thesaure fidelium"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\JesuThesaureViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\JesuThesaureViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \JesuThesaureSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \JesuThesaureSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \JesuThesaureAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \JesuThesaureAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \JesuThesaureTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \JesuThesaureTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \JesuThesaureBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \JesuThesaureBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\JesuThesaureOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \JesuThesaureBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "4"
-			title = "J E S U   T H E S A U R E   F I D E L I U M"
+			number = "5"
+			title = "J E S U   G A U D I U M   A N G E L O R U M"
 		}
-		% \tocSection "4" "Jesu thesaure fidelium"
+		% \tocSection "5" "Jesu gaudium Angelorum"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+						% \transpose c b,
+						\partcombine \JesuGaudiumClarinoI \JesuGaudiumClarinoII
+					>>
+				>>
+				\new Staff {
+					\set Staff.instrumentName = "timp"
+					% \transpose c b,
+					\JesuGaudiumTimpani
+				}
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\JesuThesaureViolinoI
+							\JesuGaudiumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\JesuThesaureViolinoII
+							\JesuGaudiumViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \JesuThesaureSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \JesuGaudiumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \JesuThesaureSopranoLyrics
+					\new Lyrics \lyricsto Soprano \JesuGaudiumSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \JesuThesaureAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \JesuGaudiumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \JesuThesaureAltoLyrics
+					\new Lyrics \lyricsto Alto \JesuGaudiumAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \JesuThesaureTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \JesuGaudiumTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \JesuThesaureTenoreLyrics
+					\new Lyrics \lyricsto Tenore \JesuGaudiumTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \JesuThesaureBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \JesuGaudiumBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \JesuThesaureBassoLyrics
+					\new Lyrics \lyricsto Basso \JesuGaudiumBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\JesuThesaureOrgano
+						\JesuGaudiumOrgano
 					}
 				>>
-				\new FiguredBass { \JesuThesaureBassFigures }
+				\new FiguredBass { \JesuGaudiumBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }
