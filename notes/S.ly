@@ -728,13 +728,178 @@ JesuGaudiumSopranoLyrics = \lyricmode {
 	bis. %97 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		r4 \mvTr b'\pE^\solo b
+		f'~ \tuplet 3/2 4 { f8[ d b] es[( c)] a }
+		f'4~ \tuplet 3/2 4 { f8[ d b] es([ c)] a }
+		b4 f r
+		\tuplet 3/2 4 { g8([ es' d)] c([ g' f)] es([ d c)] } %5
+		\appoggiatura b a4 b r8 f'
+		es4~ \tuplet 3/2 4 { es8[ c a] c([ a es)] }
+		es4 d r
+		f2 f4
+		\appoggiatura b8 a4 a r %10
+		b( es) d
+		d c r
+		c2 c4
+		\tuplet 3/2 4 { f8([ d b)] } b4. a8
+		\tuplet 3/2 4 { d([ b g)] } g4. f8 %15
+		\tuplet 3/2 4 { b([ g e)] } e4.( d8)
+		\appoggiatura d c4 c r
+		c'~ \tuplet 3/2 4 { c8[ b a] f'([ e d)] }
+		c4~ \tuplet 3/2 4 { c8[ b a] f'([ e d)] }
+		d4 c r %20
+		e e r
+		f2.~
+		f8. f,16 g2
+		f4 r r
+		R2.*2 %26
+		r4 f f
+		c'~ \tuplet 3/2 4 { c8[ a f] b([ g)] e }
+		c'4~ \tuplet 3/2 4 { c8[ a f] d'([ b)] f }
+		es'!4~ \tuplet 3/2 4 { es8[ c es] d([ b d)] } %30
+		d4 c r8 f,
+		f'4~ \tuplet 3/2 4 { f8[ d f] es([ c es)] }
+		es4 d r
+		f,2.
+		a4 a r8 a %35
+		b8. f'16 es4 des
+		des c r
+		r b f'
+		f8([ es)] es4. d8
+		\tuplet 3/2 4 { g([ es c)] } c4. b8 %40
+		\tuplet 3/2 4 { es([ c a)] } a4.( g8)
+		\appoggiatura g f4 f r8 f
+		f4~ \tuplet 3/2 4 { f8[ es d] b'([ a)] g }
+		f4~ \tuplet 3/2 4 { f8[ es d] b'([ a)] g }
+		g4 f r8 f %45
+		a4 a r
+		b2.
+		b4 b b
+		b( c2)
+		b4 r r %50
+		R2.*2
+		r4 \mvTr b\fE^\tutti b
+		f'~ \tuplet 3/2 4 { f8[ d b] es([ c)] a }
+		f'4~ \tuplet 3/2 4 { f8[ d b] es([ c)] a } %55
+		b4 f r
+		\tuplet 3/2 4 { g8([ es' d)] c([ g' f)] es([ d c)] }
+		\appoggiatura b a4 b r
+		\tuplet 3/2 4 { c8([ h c)] es([ d c)] g([ a b)] }
+		b4 a r %60
+		c(\p f) des
+		c( f) des
+		c( f) des
+		des c r
+		b2. %65
+		b
+		b
+		b2 r4
+		f\f( a) c
+		es2 d4 %70
+		f,( a) c
+		es2 d4
+		d~\p \tuplet 3/2 4 { d8[ es d] d([ es d)] }
+		d4~ \tuplet 3/2 4 { d8[ es d] d([ es d)] }
+		d4~ \tuplet 3/2 4 { d8[ es d] d([ es d)] } %75
+		d4 es r
+		a,2\f a4
+		b2 b4
+		b2 b4~
+		b b( a) %80
+		b f f
+		g as r
+		g as r
+		g2.
+		f\fermata \bar "|." %85 FINIS
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus
+	De -- i, __ qui
+	tol -- lis pec --
+	ca -- ta,
+	pec -- ca -- ta __ %5
+	mun -- di, pec --
+	ca -- ta __
+	mun -- di:
+	Par -- ce
+	no -- bis, %10
+	no -- bis
+	Je -- su.
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- %15
+	ca -- ta __
+	mun -- di:
+	Par -- ce __
+	no -- bis __
+	Je -- su, %20
+	par -- ce,
+	par --
+	ce Je --
+	su.
+
+	A -- gnus %27
+	De -- i, __ qui
+	tol -- lis pec --
+	ca -- ta __ %30
+	mun -- di, pec --
+	ca -- ta __
+	mun -- di:
+	Ex --
+	au -- di, ex -- %35
+	au -- di nos, nos
+	Je -- su.
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- %40
+	ca -- ta __
+	mun -- di: Ex --
+	au -- di nos
+	Je -- su, ex --
+	au -- di, ex -- %45
+	au -- di,
+	ex --
+	au -- di nos
+	Je --
+	su. %50
+
+	A -- gnus %53
+	De -- i, __
+	qui tol -- lis pec -- %55
+	ca -- ta,
+	pec -- ca -- ta __
+	mun -- di,
+	pec -- ca -- ta __
+	mun -- di: %60
+	Mi -- se --
+	re -- re
+	no -- bis
+	Je -- su,
+	mi -- %65
+	se --
+	re --
+	re,
+	mi -- se --
+	re -- re %70
+	no -- bis
+	Je -- su,
+	mi -- se --
+	re -- re __
+	no -- bis __ %75
+	Je -- su,
+	mi -- se --
+	re -- re
+	no -- bis __
+	Je -- %80
+	su, mi -- se --
+	re -- re
+	no -- bis
+	Je --
+	su. %85 FINIS
+}

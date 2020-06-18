@@ -699,13 +699,77 @@ JesuGaudiumTenoreLyrics = \lyricmode {
 	bis. %97 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		R2.*53 %53
+		\mvTr b4(\fE^\tuttiE d) c
+		b d c %55
+		b b r
+		b c c
+		c f, r
+		es' es d
+		d c r %60
+		a2\p b4
+		a2 b4
+		a2 b4
+		b a r
+		d!2 es4 %65
+		d2 es4
+		d2 es4
+		es d r
+		r c\f c
+		a2 b4 %70
+		r c c
+		a2 b4
+		b\p c2
+		b4 c2
+		b4 c2 %75
+		b4 c r
+		c2\f c4
+		b2 b4
+		es2 des4~
+		des c2 %80
+		b4 b b
+		b b r
+		b b r
+		b2.
+		b\fermata \bar "|." %85 FINIS
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus %54
+	De -- i, qui %55
+	tol -- lis
+	pec -- ca -- ta
+	mun -- di,
+	pec -- ca -- ta
+	mun -- di: %60
+	Mi -- se --
+	re -- re
+	no -- bis
+	Je -- su,
+	mi -- se -- %65
+	re -- re
+	no -- bis
+	Je -- su,
+	mi -- se --
+	re -- re %70
+	no -- bis
+	Je -- su,
+	mi -- se --
+	re -- re
+	no -- bis %75
+	Je -- su,
+	mi -- se --
+	re -- re
+	no -- bis __
+	Je -- %80
+	su, mi -- se --
+	re -- re
+	no -- bis
+	Je --
+	su. %85 FINIS
+}

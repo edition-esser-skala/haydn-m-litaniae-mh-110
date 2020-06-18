@@ -624,9 +624,94 @@ JesuGaudiumViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoAgnusDei
+		R2.
+		d'2(\p es4)
+		d2( es4)
+		d \tuplet 3/2 4 { r8 b, d f d as' }
+		g4 g es' %5
+		c \tuplet 3/2 4 { b8 b c d es f }
+		es4 c a
+		b \tuplet 3/2 4 { b8 b b b b b }
+		\tuplet 3/2 4 { f( d' b) f( d' b) f( d' b) }
+		\tuplet 3/2 4 { f es' a, f es' a, f es' a, } %10
+		\tuplet 3/2 4 { b b' f } es4 d
+		d \tuplet 3/2 4 { c8 f f f c c }
+		\tuplet 3/2 4 { c a a } a4 c
+		r \tuplet 3/2 4 { f8 d b } b( a)
+		r4 \tuplet 3/2 4 { d8 b g } g( f) %15
+		r4 \tuplet 3/2 4 { b8 g e } e( d)
+		r4 \tuplet 3/2 4 { c8 c c c c c }
+		\tuplet 3/2 4 { c f' f f f f f f f }
+		\tuplet 3/2 4 { f f f f f f f f f }
+		\tuplet 3/2 4 { f f f c a' f c a' f } %20
+		\tuplet 3/2 4 { c b' g c, b' g c, g' e }
+		\tuplet 3/2 4 { f f f f f f f f f }
+		f a,! g g g g
+		\tuplet 3/2 4 { f c' c r a'\f a r c,\p c }
+		\tuplet 3/2 4 { r b b r b'\f b r e,\p e } %25
+		\tuplet 3/2 4 { r f f r d'\f d r e,,\p e }
+		f4 r r
+		a2 b4
+		a2 b4
+		c es! d %30
+		d \tuplet 3/2 4 { c8 a b c b a }
+		f'2 es4
+		es \tuplet 3/2 4 { d8 b b b b b }
+		\tuplet 3/2 4 { f( des' b) f( des' b) f( des' b) }
+		\tuplet 3/2 4 { f( es' a,) f( es' a,) f( es' a,) } %35
+		\tuplet 3/2 4 { b b' f } es4 des
+		des \tuplet 3/2 4 { c8 f f f a, a }
+		\tuplet 3/2 4 { b f' f } f4 r
+		r \tuplet 3/2 4 { b8 g es } es( d)
+		r4 \tuplet 3/2 4 { g8 es c } c( b) %40
+		r4 \tuplet 3/2 4 { es8 c a } a( g)
+		r4 \tuplet 3/2 4 { f8 f f es es es }
+		\tuplet 3/2 4 { d b'' b b b b b b b }
+		\tuplet 3/2 4 { b b b b b b b b b }
+		\tuplet 3/2 4 { b b b f d b f d' b } %45
+		\tuplet 3/2 4 { f es' c f, es' c f, c' a }
+		\tuplet 3/2 4 { b b b b b b b b b }
+		\tuplet 3/2 4 { b\cresc b' b b b b b b b }
+		b\! d,! c c c c
+		\tuplet 3/2 4 { b f' f r d'\f d r f,\p f } %50
+		\tuplet 3/2 4 { r es es r c'\f c r es,\p es }
+		\tuplet 3/2 4 { r d d r g\f g r a,\p a }
+		b4 b\f b
+		f'~ \tuplet 3/2 4 { f8 d b es c a }
+		f'4~ \tuplet 3/2 4 { f8 d b es c a } %55
+		b4 \tuplet 3/2 4 { f8 b, d f d as' }
+		\tuplet 3/2 4 { g es' d c g' f es d c }
+		\appoggiatura b a4 \tuplet 3/2 4 { b8 d f b f d }
+		\tuplet 3/2 4 { c h c es d c g a b? }
+		b4 \tuplet 3/2 4 { a8 f a c a c } %60
+		\tuplet 3/2 4 { f\p c a f c' a f des' b }
+		\tuplet 3/2 4 { f c' a f c' a f des' b }
+		\tuplet 3/2 4 { f c' a f c' a f des' b }
+		\tuplet 3/2 4 { f f' e f c b a c es, }
+		d!4 f ges %65
+		\tuplet 3/2 4 { f8 d b } f'4 ges
+		\tuplet 3/2 4 { f8 d b } f'4 g
+		\tuplet 3/2 4 { b8( d c) d( f es) f(\f d b') }
+		\tuplet 3/2 4 { a( c a) f es c a f es }
+		\tuplet 3/2 4 { c c c c' c c d d d } %70
+		\tuplet 3/2 4 { es( c' a) f( es c) a( f es) }
+		\tuplet 3/2 4 { c c c c' c c } d4
+		\tuplet 3/2 4 { d8(\p b d) d( es d) d( es d) }
+		\tuplet 3/2 4 { d b d d es d d es d }
+		\tuplet 3/2 4 { d b d d es d d es d } %75
+		d4-! es-! r
+		\tuplet 3/2 4 { r8 a\f a r a a r a a }
+		\tuplet 3/2 4 { r b b r b b r b b }
+		\tuplet 3/2 4 { r b b r b b r b b }
+		\tuplet 3/2 4 { r b b r b b r a a } %80
+		b4 f, f
+		\tuplet 3/2 4 { g8 b b f'( es d) c( b as) }
+		\tuplet 3/2 4 { g b b f'( es d) \once \slurDashed c( b as) }
+		g4 g2
+		f2.\fermata \bar "|." %85 FINIS
+	}
+}

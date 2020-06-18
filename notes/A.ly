@@ -686,13 +686,77 @@ JesuGaudiumAltoLyrics = \lyricmode {
 	bis. %97 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		R2.*53 %53
+		\mvTr d4(\fE^\tuttiE f) es
+		d f es %55
+		d f r
+		es g g
+		f f r
+		g g g
+		f f r %60
+		f2.\p
+		f
+		f
+		f2 r4
+		f( b) ges %65
+		f( b) ges
+		f( b) g
+		g f r
+		r f\f a
+		c( f,) f %70
+		r f a
+		c( f,) f
+		g\p a2
+		g4 a2
+		g4 a2 %75
+		g4 g r
+		f!2\f es4
+		des2 des4
+		ges2 g4~
+		g f2 %80
+		f4 f d!
+		es f r
+		es f r
+		es2.
+		d\fermataMarkup \bar "|." %85 FINIS
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	\xE A -- gnus %54
+	De -- i, qui %55
+	tol -- lis
+	pec -- ca -- ta
+	mun -- di,
+	pec -- ca -- ta
+	mun -- di: %60
+	\x Mi --
+	se --
+	re --
+	re,
+	mi -- se -- %65
+	re -- re
+	no -- bis
+	Je -- su,
+	\xE mi -- se --
+	re -- re %70
+	no -- bis
+	Je -- su,
+	mi -- se --
+	re -- re
+	no -- bis %75
+	Je -- su,
+	mi -- se --
+	re -- re
+	no -- bis __
+	Je -- %80
+	su, mi -- se --
+	re -- re
+	no -- bis
+	Je --
+	su. %85 FINIS
+}

@@ -134,3 +134,30 @@ JesuGaudiumTimpani = {
 		R\fermataMarkup \bar "||" %112 finis
 	}
 }
+
+AgnusDeiTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoAgnusDei
+		R2.*53 %53
+		c4\fE r g
+		c r g %55
+		c c r
+		R2.
+		g4 c r
+		r r c
+		g g r %60
+		R2.*8 %68
+		r4 g\fE g
+		g g c %70
+		r g g
+		g g8 g c4
+		R2.*7 %79
+		r4 g\fE g8. g16 %80
+		c4 c c
+		c c r
+		c c r
+		c2.
+		c\fermata \bar "|." %85 FINIS
+	}
+}

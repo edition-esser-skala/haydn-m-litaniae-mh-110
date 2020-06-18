@@ -278,75 +278,146 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "5"
+	% 		title = "J E S U   G A U D I U M   A N G E L O R U M"
+	% 	}
+	% 	\tocSection "5" "Jesu gaudium Angelorum"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+	% 					% \transpose c b,
+	% 					\partcombine \JesuGaudiumClarinoI \JesuGaudiumClarinoII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				% \transpose c b,
+	% 				\JesuGaudiumTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\JesuGaudiumViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\JesuGaudiumViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \JesuGaudiumSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \JesuGaudiumSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \JesuGaudiumAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \JesuGaudiumAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \JesuGaudiumTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \JesuGaudiumTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \JesuGaudiumBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \JesuGaudiumBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\JesuGaudiumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \JesuGaudiumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 120 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "5"
-			title = "J E S U   G A U D I U M   A N G E L O R U M"
+			number = "6"
+			title = "A G N U S   D E I"
 		}
-		% \tocSection "5" "Jesu gaudium Angelorum"
+		\tocSection "6" "Agnus Dei"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
 						% \transpose c b,
-						\partcombine \JesuGaudiumClarinoI \JesuGaudiumClarinoII
+						\partcombine \AgnusDeiClarinoI \AgnusDeiClarinoII
 					>>
 				>>
 				\new Staff {
 					\set Staff.instrumentName = "timp"
 					% \transpose c b,
-					\JesuGaudiumTimpani
+					\AgnusDeiTimpani
 				}
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\JesuGaudiumViolinoI
+							\AgnusDeiViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\JesuGaudiumViolinoII
+							\AgnusDeiViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \JesuGaudiumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \JesuGaudiumSopranoLyrics
+					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \JesuGaudiumAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \JesuGaudiumAltoLyrics
+					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \JesuGaudiumTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \JesuGaudiumTenoreLyrics
+					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \JesuGaudiumBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \JesuGaudiumBassoLyrics
+					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\JesuGaudiumOrgano
+						\AgnusDeiOrgano
 					}
 				>>
-				\new FiguredBass { \JesuGaudiumBassFigures }
+				\new FiguredBass { \AgnusDeiBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 75 }
 		}
 	}
 }

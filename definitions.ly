@@ -597,6 +597,7 @@ tempoJesuFili = \tempoMarkup "Andante"
 tempoJesuRefugium = \tempoMarkup "Adagio"
 tempoJesuThesaure = \tempoMarkup "Allegro"
 tempoJesuGaudium = \tempoMarkup "Allegro"
+tempoAgnusDei = \tempoMarkup "Adagio"
 
 
 \include "notes/clno1.ly"

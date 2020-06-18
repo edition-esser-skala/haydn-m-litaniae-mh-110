@@ -636,13 +636,77 @@ JesuGaudiumBassoLyrics = \lyricmode {
 	bis. %97 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		R2.*53 %53
+		\mvTr b2\fE^\tuttiE f'4
+		b b f %55
+		b, b r
+		es es es
+		es d r
+		es es e
+		f f r %60
+		f2\p b,4
+		f'2 b,4
+		f'2 b,4
+		f' f r
+		b,2 es4 %65
+		b2 es4
+		b2 es4
+		b b r
+		r f'\f f
+		f2 b,4 %70
+		r f' f
+		f2 b,4
+		g'\p fis2
+		g4 fis2
+		g4 fis2 %75
+		g4 c, r
+		f!2\f f4
+		ges2 ges4
+		es2 e4~
+		e f2 %80
+		b,4 d b
+		es d r
+		es d r
+		es2.
+		b\fermata \bar "|." %85 FINIS
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	\xE A -- gnus %54
+	De -- i, qui %55
+	tol -- lis
+	pec -- ca -- ta
+	mun -- di,
+	pec -- ca -- ta
+	mun -- di: %60
+	Mi -- se --
+	re -- re
+	no -- bis
+	Je -- su,
+	mi -- se -- %65
+	re -- re
+	no -- bis
+	Je -- su,
+	mi -- se --
+	re -- re %70
+	no -- bis
+	Je -- su,
+	mi -- se --
+	re -- re
+	no -- bis %75
+	Je -- su,
+	mi -- se --
+	re -- re
+	no -- bis __
+	Je -- %80
+	su, mi -- se --
+	re -- re
+	no -- bis
+	Je --
+	su. %85 FINIS
+}

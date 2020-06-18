@@ -154,3 +154,37 @@ JesuGaudiumClarinoII = {
 		R\fermataMarkup \bar "||" %112 finis
 	}
 }
+
+AgnusDeiClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAgnusDei
+		R2.*53 %53
+		c'4\fE r d
+		c r d %55
+		c c r
+		R2.
+		g4 c, r
+		r r c'
+		c g r %60
+		g2.~\p
+		g~
+		g~
+		g4 r r
+		c,2.~ %65
+		c~
+		c~
+		c4 r r
+		r d'\f d
+		g, g8 d' c4 %70
+		r d d
+		g, g8 d' c4
+		R2.*7 %79
+		r4 g\fE g8. g16 %80
+		e4 c e
+		c2.
+		c
+		c4 c c8. c16
+		e2.\fermata \bar "|." %85 FINIS
+	}
+}

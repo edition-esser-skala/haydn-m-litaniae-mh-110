@@ -625,3 +625,95 @@ JesuGaudiumViolinoII = {
 		c2\stopTrillSpan r4\fermata \bar "||" %112 finis
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoAgnusDei
+		R2.
+		b'2(\p c4)
+		b2( c4)
+		b f d
+		b c g' %5
+		f f \tuplet 3/2 4 { b8 c d }
+		c4 a es
+		es \tuplet 3/2 4 { d8 d d d d d }
+		d4 b' f
+		es es es %10
+		f a b
+		b \tuplet 3/2 4 { a8 a a a a a }
+		\tuplet 3/2 4 { a f f }f4 g
+		r f e
+		r d c %15
+		r b a
+		r \tuplet 3/2 4 { g8 g g b b b }
+		a4 \tuplet 3/2 4 { a'8 g f d' c b }
+		a4~ \tuplet 3/2 4 { a8 g f d' c b }
+		b4 a f8 a %20
+		c2 b4
+		\tuplet 3/2 4 { as8 as as as as as as as as }
+		a8 f f f e e
+		\tuplet 3/2 4 { f a a r f'\f f r a,\p a }
+		\tuplet 3/2 4 { r g g r g'\f g r b,\p b } %25
+		\tuplet 3/2 4 { r a a r b'\f b r b,,\p b }
+		a4 r r
+		f'2 g4
+		f2 f4
+		f2 b4 %30
+		b \tuplet 3/2 4 { a8 f g a g f }
+		a4 b c
+		c \tuplet 3/2 4 { b8 d, d d d d }
+		des4 b' f
+		es es es %35
+		f a b
+		b \tuplet 3/2 4 { a8 a a a f f }
+		\tuplet 3/2 4 { f b d! } d4 c
+		r b a
+		r g f %40
+		r es d
+		r \tuplet 3/2 4 { c8 c c c c c }
+		b4 \tuplet 3/2 4 { d8 c b g' f es }
+		d4~ \tuplet 3/2 4 { d8 c b g' f es }
+		es4 d b' %45
+		c f, es
+		\tuplet 3/2 4 { des8 des des des des des des des des }
+		\tuplet 3/2 4 { des\cresc des' des des des des des des des }
+		d\! b b b a a
+		\tuplet 3/2 4 { b d d r f\f f r d\p d } %50
+		\tuplet 3/2 4 { r c c r es\f es r c\p c }
+		\tuplet 3/2 4 { r b b r es\f es r es,\p es }
+		d4 f\f es
+		d \tuplet 3/2 4 { d'8 b f es' c a }
+		d4~ \tuplet 3/2 4 { d8 b f es' c a } %55
+		b4 \tuplet 3/2 4 { f8 b, d f d as' }
+		g4 g g
+		f f d
+		g es d
+		d c r %60
+		a'2\p b4
+		\tuplet 3/2 4 { c8 a f } a4 b
+		\tuplet 3/2 4 { c8 a f } a4 b
+		b a r
+		\tuplet 3/2 4 { b8 f d! b f' d b ges' es } %65
+		\tuplet 3/2 4 { b' f d b f' d b ges' es }
+		\tuplet 3/2 4 { b' f d b f' d b g' es }
+		\tuplet 3/2 4 { b b' a b( d c) d(\f b d) }
+		\tuplet 3/2 4 { c( a' f) es c a f es c }
+		\tuplet 3/2 4 { a a a a' a a b b b } %70
+		\tuplet 3/2 4 { c( a' f) es( c a) f( es c) }
+		\tuplet 3/2 4 { a a a a' a a } b4
+		\tuplet 3/2 4 { b8(\p g b) c( a c) c( a c) }
+		\tuplet 3/2 4 { b g b c a c c a c }
+		\tuplet 3/2 4 { b g b c a c c a c } %75
+		b4-! c-! r
+		\tuplet 3/2 4 { r8 c\f c r f f r es es }
+		\tuplet 3/2 4 { r des des r des des r des des }
+		\tuplet 3/2 4 { r ges ges r ges ges r g g }
+		\tuplet 3/2 4 { r g g r c, c r c c } %80
+		b4 b, d
+		\tuplet 3/2 4 { es8 b' b f'( es d) c( b as) }
+		\tuplet 3/2 4 { g b b f'( es d) c( b as) }
+		\tuplet 3/2 4 { g f es } es2
+		d2.\fermata \bar "|." %85 FINIS
+	}
+}
