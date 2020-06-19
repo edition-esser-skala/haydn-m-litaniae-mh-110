@@ -9,7 +9,7 @@
 \paper {
 	#(set-paper-size "a4" 'landscape)
 	indent = 1\cm
-	#(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+	#(define (page-post-process layout pages) (ly:create-ref-file layout pages))
 }
 
 #(set-global-staff-size 15.87)
@@ -21,7 +21,7 @@
 			title = "K Y R I E   E L E I S O N"
 		}
 		\paper { indent = 3\cm }
-		\tocSection "1" "Kyrie eleison"
+		\tocLabel "kyrie" "1" "Kyrie eleison"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -98,7 +98,7 @@
 			number = "2"
 			title = "J E S U   F I L I   D E I   V I V I"
 		}
-		\tocSection "2" "Jesu Fili Dei vivi"
+		\tocLabel "jesufili" "2" "Jesu Fili Dei vivi"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -157,7 +157,7 @@
 			number = "3"
 			title = "J E S U   R E F U G I U M   N O S T R U M"
 		}
-		\tocSection "3" "Jesu refugium nostrum"
+		\tocLabel "jesurefugium" "3" "Jesu refugium nostrum"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -228,7 +228,7 @@
 			number = "4"
 			title = "J E S U   T H E S A U R E   F I D E L I U M"
 		}
-		\tocSection "4" "Jesu thesaure fidelium"
+		\tocLabel "jesuthesaure" "4" "Jesu thesaure fidelium"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -287,7 +287,7 @@
 			number = "5"
 			title = "J E S U   G A U D I U M   A N G E L O R U M"
 		}
-		\tocSection "5" "Jesu gaudium Angelorum"
+		\tocLabel "jesugaudium" "5" "Jesu gaudium Angelorum"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -358,7 +358,7 @@
 			number = "6"
 			title = "A G N U S   D E I"
 		}
-		\tocSection "6" "Agnus Dei"
+		\tocLabel "agnusdei" "6" "Agnus Dei"
 		\score {
 			<<
 				\new StaffGroup <<

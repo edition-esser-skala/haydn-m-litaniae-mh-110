@@ -592,6 +592,42 @@ tocSection = #(define-music-function
 	)
 )
 
+#(define (ly:create-ref-file layout pages)
+ (let* ((label-table (ly:output-def-lookup layout 'label-page-table)))
+   (if (not (null? label-table))
+     (let* ((format-line (lambda (toc-item)
+            (let* ((label (car toc-item))
+                   (text  (caddr toc-item))
+                   (label-page (and (list? label-table)
+                                    (assoc label label-table)))
+                   (page (and label-page (cdr label-page))))
+              (format #f "~a{~a}}" text page))))
+            (formatted-toc-items (map format-line (toc-items)))
+            (whole-string (string-join formatted-toc-items "\n"))
+						(outfilename "lilypond.ref")
+            (outfile (open-output-file outfilename)))
+       (if (output-port? outfile)
+           (display whole-string outfile)
+           (ly:warning (_ "Unable to open output file ~a for the REF information") outfilename))
+       (close-output-port outfile)))))
+
+tocLabel = #(define-music-function
+ 	(parser location label number text)
+ 	(markup? markup? markup?)
+   (add-toc-item!
+ 		'tocItemMarkup
+ 		(format
+ 			#f
+ 			"\\newlabel{~a}{{~a}{~a}"
+			label
+ 			number
+ 			text
+ 		)
+ 	)
+ )
+
+
+
 tempoKyrie = \tempoMarkup "Allegro"
 tempoJesuFili = \tempoMarkup "Andante"
 tempoJesuRefugium = \tempoMarkup "Adagio"

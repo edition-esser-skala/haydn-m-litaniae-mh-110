@@ -11,3 +11,4 @@ front_matter/critical_report.pdf
 *.blg
 *.toc
 *.ps
+*.ref
