@@ -1,0 +1,17 @@
+composer: Haydn, Johann Michael
+title: Litaniae de Venerabili Sacramento
+id: MH 110
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (B), timp (B–F), 2 vl, b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 3753
+    type: autograph manuscript
+    date: 1768
+    rism: 455016860
+    url: http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00085087-8
+github: haydn-m-litaniae-mh-110
+imslp: Litaniae_de_Venerabili_Sacramento,_MH_110_(Haydn,_Michael)
+notes:
+
